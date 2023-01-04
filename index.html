@@ -1,259 +1,219 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>The yEAh Games Network</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="icon" type="image/x-icon" href="https://yeaharchives.files.wordpress.com/2022/04/cropped-cropped-yeahgames-removebg-preview.png">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body bgcolor="#ff4747">  
-  
-<!-- START NAVBAR --> 
-<div class="w3-top">
-    <div class="w3-bar w3-theme-d2 w3-left-align">
-     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-     <a href="https://yeah-games.github.io/" class="w3-bar-item w3-button w3-red w3-hover-pale-red"><i class="fa fa-server w3-margin-right"></i>Network</a>
-     <a href="https://library.yeahgames.net" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-archive w3-margin-right"></i>The Archives</a>
-     <!--Dropdown: Library collections-->
-     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button" title="List of yEAh Games [external] library collections"><i class="fa fa-folder-open w3-margin-right"></i>Collections <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-        <a href="https://news.yeahgames.net"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-newspaper-o w3-margin-right"></i>News</a>
-        <a href="https://docs.yeahgames.net"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-question-circle w3-margin-right"></i>Docs</a>
-        <a href="https://quotes.yeahgames.net" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-quote-left w3-margin-right"></i>Quotes</a>
-      </div>
-    </div>     
-     <a href="https://yeah-games.github.io/chat" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-wechat w3-margin-right"></i>Chat</a>
-     <a href="https://yeah-games.github.io/yible" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-book w3-margin-right"></i>The Yible</a>
-     <a href="https://admin.yeahgames.net" target=”_blank” class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-lock w3-margin-right"></i>Admin</a>
-     <a href="https://shop.yeahgames.net" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-shopping-cart w3-margin-right"></i>Shop</a>
+---
+title: "Mundana Free Jekyll Theme"
+layout: default
+pagination:
+    enabled: true
+description: "A great Jekyll theme developed by Sal @wowthemesnet."
+---
 
 
-
-
-      <!--Dropdown: Social-->
-
-     <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button" title="Follow yEAh Games on social media!"><i class="fa fa-mobile-phone w3-margin-right"></i>Social <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-        <a href="https://dsc.gg/yeahgames"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-wechat w3-margin-right"></i>Discord</a>
-        <a href="https://youtube.com/@yeahgames"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-youtube-play w3-margin-right"></i>YouTube</a>
-        <a href="https://reddit.com/r/yeahgames" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-reddit w3-margin-right"></i>Reddit</a>
-        <a href="https://twitter.com/yeahgames_" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-twitter w3-margin-right"></i>Twitter</a>
-        <a href="https://instagram.com/_yeahgames" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-instagram w3-margin-right"></i>Instagram</a>
-      </div>
-    </div>
-
-      <!--Dropdown: Deprecated-->
+<div class="container">
     
-    <div class="w3-dropdown-hover w3-hide-small">
-      <button class="w3-button" title="Deprecated yEAh Games websites (out-of-date; not updated)"><i class="fa fa-close w3-margin-right"></i>Deprecated <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-        <a href="https://yeaharchives.wordpress.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-archive w3-margin-right"></i>Discontinued archives</a>
-        <a href="https://yeah-games.weebly.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-desktop w3-margin-right"></i>Discontinued website</a>
-        <a href="https://yeahgames.neocities.org"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-user-secret w3-margin-right"></i>Discontinued secret site</a>
-        <a href="https://livechat1-yeaharchives.weebly.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-wechat w3-margin-right"></i>Discontinued LiveChat</a>
-        <a href="https://yible.neocities.org"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-book w3-margin-right"></i>Discontinued Yible</a>
-      </div>
+{% if page.url == "/" %}
+    
+    
+    
+<!-- Begin post excerpts, let's highlight the first 4 posts on top -->
+<div class="row remove-site-content-margin">
+    
+    <!-- latest post -->
+    {% assign latest_post = site.posts[0] %}
+    <div class="col-md-6">
+    <div class="card border-0 mb-4 box-shadow">   
+    <a href="{{site.baseurl}}{{latest_post.url}}">
+    <div class="topfirstimage" style="background-image: url({% if latest_post.image contains "://" %}{{ latest_post.image }}{% else %} {{site.baseurl}}/{{ latest_post.image}}{% endif %}); height: 200px;    background-size: cover;    background-repeat: no-repeat;"></div>     
+    </a>
+    <div class="card-body px-0 pb-0 d-flex flex-column align-items-start">
+    <h2 class="h4 font-weight-bold">
+    <a class="text-dark" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
+    </h2>
+    <p class="excerpt">
+        {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+    </p>
+    <div>
+        <small class="d-block text-muted">
+            In <span class="catlist">
+                {% for category in latest_post.categories %}
+                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                {% endfor %}
+                </span>                   
+        </small>
+        <small class="text-muted">
+            {{ latest_post.date | date: '%b %d, %Y' }}
+        </small>
     </div>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red" title="Search"><i class="fa fa-search"></i></a>
-  </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="col-md-6">
+        
+        <!-- second latest post -->
+        {%- assign second_post = site.posts[1] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if second_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{second_post.url}}">
+                 <img class="w-100" src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in second_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ second_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- third latest post -->
+        {%- assign third_post = site.posts[2] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if third_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{third_post.url}}">
+                 <img class="w-100" src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in third_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ third_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+        <!-- fourth latest post -->
+        {%- assign fourth_post = site.posts[3] -%}        
+        <div class="mb-3 d-flex align-items-center">                
+                {% if fourth_post.image %}
+                <div class="col-md-4">
+                <a href="{{site.baseurl}}{{fourth_post.url}}">
+                <img class="w-100" src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %}" alt="{{ fourth_post.title }}">
+                </a>
+                </div>
+                {% endif %}                
+                <div>
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        In <span class="catlist">
+                        {% for category in fourth_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                    <small class="text-muted">
+                        {{ fourth_post.date | date: '%b %d, %Y' }}
+                    </small>
+                </div>
+            </div>
+        
+    </div>
+    
+</div>
+    
+<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+{% for post in site.posts %} 
+{% if post.tags contains "sticky" %}
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
+                <h1 class="mb-3">{{post.title}}</h1>
+                <p class="mb-3 lead">
+                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                </p>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
+            </div>
+        </div>
+    </div>
+</div> 
+{% endif %}
+{% endfor %}
 
 
-<!--END NAVBAR-->
+    
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="/" class="w3-bar-item w3-button">Repositories</a>
-    <a href="https://yeahgames.pro" class="w3-bar-item w3-button">Archives</a>
-    <a href="https://youtu.be/dQw4w9WgXcQ" class="w3-bar-item w3-button">Pro</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
-  </div>
+
+{% endif %} <!--endif page url is / -->
+    
+
+
+<!-- Now the rest of the posts with the usual loop but with an offset:4 on the first page so we can skeep the first 4 posts displayed above -->
+    
+<div class="row mt-3">
+   
+    <div class="col-md-8 main-loop">
+        
+        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+        
+
+        {% for post in paginator.posts %}
+        
+            {% include main-loop-card.html %}
+        
+        {% endfor %}
+        
+        <div class="mt-5">
+         <!-- Pagination links -->
+            {% if paginator.total_pages > 1 %}
+            <ul class="pagination"> 
+              {% if paginator.previous_page %}
+                <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+              {% else %}
+                <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
+              {% endif %}
+
+              {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
+                {% elsif page == 1 %}
+                <li class="page-item"><a class="page-link" href="{{site.baseurl}}/">{{ page }}</a></li>
+                {% else %}
+                <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                {% endif %}
+              {% endfor %}
+
+              {% if paginator.next_page %}
+                <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+              {% else %}
+                <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
+              {% endif %}
+            </ul>
+            {% endif %}      
+        </div>
+        
+    </div>
+    
+    <div class="col-md-4">
+        {% include sidebar-featured.html %}    
+    </div>
+    
 </div>
 
-<script>
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
-<br>
-<br>
 
-<div class="container-fluid">
-  <div class="row flex-nowrap">
-      <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
-          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-              <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-                  <span class="fs-5 d-none d-sm-inline">Menu</span>
-              </a>
-              <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                  <li class="nav-item">
-                      <a href="#" class="nav-link align-middle px-0">
-                          <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
-                      <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
-                          <li class="w-100">
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
-                          </li>
-                          <li>
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li>
-                      <a href="#" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
-                  </li>
-                  <li>
-                      <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
-                          <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
-                      <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
-                          <li class="w-100">
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
-                          </li>
-                          <li>
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li>
-                      <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
-                          <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
-                          <li class="w-100">
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
-                          </li>
-                          <li>
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
-                          </li>
-                          <li>
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
-                          </li>
-                          <li>
-                              <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
-                          </li>
-                      </ul>
-                  </li>
-                  <li>
-                      <a href="#" class="nav-link px-0 align-middle">
-                          <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
-                  </li>
-              </ul>
-              <hr>
-              <div class="dropdown pb-4">
-                  <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
-                      <span class="d-none d-sm-inline mx-1">loser</span>
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-                      <li><a class="dropdown-item" href="#">New project...</a></li>
-                      <li><a class="dropdown-item" href="#">Settings</a></li>
-                      <li><a class="dropdown-item" href="#">Profile</a></li>
-                      <li>
-                          <hr class="dropdown-divider">
-                      </li>
-                      <li><a class="dropdown-item" href="#">Sign out</a></li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-      <div class="col py-3">
-          Content area...
-      </div>
-  </div>
+
 </div>
-
-<center>
-<img src="https://i.imgur.com/ypAyPij.png" width="980" height="75">
-<br>
-<b>Currently the homepage is only available in basic text form. We are working on modifying this part of the website for easier use.</b>
-<br>  
-  
-  
-<h2><b> yEAh Games Directory </h2> </b>
-  <a href="https://yEAh-Games.github.io"> https://yEAh-Games.github.io (main directory) </a>
-<br>
-<br>
-
-  
-<h3> Websites on the yEAhNetwork:
-<ul>
-<li><a href="https://dsc.gg/yeahgames"> Join the Discord!</a></li>
-<li><a href="/archives"> The Archives (Library access) </a>
-<li><a href="/yible"> The Yible of yEAh Games </a>
-<li><a href="/Rules"> Rules subarchive (GithubRepo) </a>
-<li><a href="/Law"> The Yourt of yEAh Games (GithubRepo) </a>
-<li><a href="/Discord"> Discord-related information and exports</a>
-<li><a href="/chat"> LiveChat on the yEAhNetwork </a>
-
-
-
-  </ul>  
-  
-<br>
-<br>
-<br>
-
-<h4>Are you looking for <a href="https://yeaharchives.wordpress.com/">yeahgames.pro?</a></h3>
-  
- 
-<!--Footer start-->
-<font face="arial black, sans-serif" size="-1"> 
-<b>——————————————————————————————</b>
-<br>
-<font color="#23272A"> © The yEAh Network 2022 (The yEAh Games Corporation, LLC.) </font>
-</font>
-<br>
-<font size="-3">
-<br>
-</font>
-<font face="" size="-2">
-The yEAh Games GitHub Team is a part of yEAh Games' goal to archive all of yEAh Games (Discord and elsewhere) to one hub online for easy access. 
-<br>
-<b>You can see our progress on the official Archives (where everything is located): <b> <font size="-2" face="arial black"> <a href="/archives"> <img src="https://i.imgur.com/3omcxOW.png" width="15" height="15"> VISIT THE YEAH GAMES ARCHIVES</a></b></b> </font>
-</font>
-<!--Footer end-->
-  
-  
-<!--Chatbubble-->
-<script src="https://cdn.deadsimplechat.com/production/2.17.4/public/js/embed.js" type="text/javascript"></script>
-            <script>
-        window.DeadSimpleChat.initBubble({
-            location: "https://deadsimplechat.com",
-        size: "small",
-            roomId: "PfbIysqpN",
-            open: "false"
-        })
-    </script>
-<!--End CHATBUBBLE-->
-  </div>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-
-
-  </body>
-  </html>

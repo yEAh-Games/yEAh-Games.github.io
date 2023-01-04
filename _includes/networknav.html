@@ -1,0 +1,85 @@
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!-- START NAVBAR --> 
+<div class="w3-top">
+    <div class="w3-bar w3-theme-d2 w3-left-align">
+     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+     <a href="https://yeah-games.github.io/" class="w3-bar-item w3-button w3-blue w3-hover-pale-red"><i class="fa fa-server w3-margin-right"></i>Network</a>
+     <a href="https://library.yeahgames.net" class="w3-bar-item w3-button w3-red w3-hover-pale-red"><i class="fa fa-archive w3-margin-right"></i>The Archives</a>
+     <!--Dropdown: Library collections-->
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button" title="List of yEAh Games [external] library collections"><i class="fa fa-folder-open w3-margin-right"></i>Collections <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="https://news.yeahgames.net"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-newspaper-o w3-margin-right"></i>News</a>
+        <a href="https://docs.yeahgames.net"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-question-circle w3-margin-right"></i>Docs</a>
+        <a href="https://quotes.yeahgames.net" target="_blank" class="w3-bar-item w3-red w3-button"><i class="fa fa-quote-left w3-margin-right"></i>Quotes</a>
+      </div>
+    </div>     
+     <a href="https://yeah-games.github.io/chat" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-wechat w3-margin-right"></i>Chat</a>
+     <a href="https://yeah-games.github.io/yible" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-book w3-margin-right"></i>The Yible</a>
+     <a href="https://admin.yeahgames.net" target=”_blank” class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-lock w3-margin-right"></i>Admin</a>
+     <a href="https://shop.yeahgames.net" class="w3-bar-item w3-button w3-hide-small w3-hover-pale-red"><i class="fa fa-shopping-cart w3-margin-right"></i>Shop</a>
+
+
+
+
+      <!--Dropdown: Social-->
+
+     <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button" title="Follow yEAh Games on social media!"><i class="fa fa-mobile-phone w3-margin-right"></i>Social <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="https://dsc.gg/yeahgames"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-wechat w3-margin-right"></i>Discord</a>
+        <a href="https://youtube.com/@yeahgames"  target="_blank" class="w3-bar-item w3-button"><i class="fa fa-youtube-play w3-margin-right"></i>YouTube</a>
+        <a href="https://reddit.com/r/yeahgames" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-reddit w3-margin-right"></i>Reddit</a>
+        <a href="https://twitter.com/yeahgames_" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-twitter w3-margin-right"></i>Twitter</a>
+        <a href="https://instagram.com/_yeahgames" target="_blank" class="w3-bar-item w3-button"><i class="fa fa-instagram w3-margin-right"></i>Instagram</a>
+      </div>
+    </div>
+
+      <!--Dropdown: Deprecated-->
+    
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-button" title="Deprecated yEAh Games websites (out-of-date; not updated)"><i class="fa fa-close w3-margin-right"></i>Deprecated <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="https://yeaharchives.wordpress.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-archive w3-margin-right"></i>Discontinued archives</a>
+        <a href="https://yeah-games.weebly.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-desktop w3-margin-right"></i>Discontinued website</a>
+        <a href="https://yeahgames.neocities.org"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-user-secret w3-margin-right"></i>Discontinued secret site</a>
+        <a href="https://livechat1-yeaharchives.weebly.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-wechat w3-margin-right"></i>Discontinued LiveChat</a>
+        <a href="https://yible.neocities.org"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-book w3-margin-right"></i>Discontinued Yible</a>
+      </div>
+    </div>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red" title="Search"><i class="fa fa-search"></i></a>
+  </div>
+
+
+<!--END NAVBAR-->
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="/" class="w3-bar-item w3-button">Repositories</a>
+    <a href="https://yeahgames.pro" class="w3-bar-item w3-button">Archives</a>
+    <a href="https://youtu.be/dQw4w9WgXcQ" class="w3-bar-item w3-button">Pro</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<script>
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<br>
+<br>
+
+</body>
