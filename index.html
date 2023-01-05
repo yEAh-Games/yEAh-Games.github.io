@@ -37,7 +37,16 @@
     .network-nav{
         z-index: 9999;
     }
-    
+    .modal{
+    display: block !important;
+}
+.modal-dialog{
+      overflow-y: initial !important
+}
+.modal-body{
+  height: 250px;
+  overflow-y: auto;
+}
 </style>  
 
 </head>
@@ -57,7 +66,7 @@
 
 <!-- Modal -->
 <div class="modal hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+  <div class="modal-dialog modal-lg modal-dialog-centered" style="overflow-y: scroll; max-height:85%;  margin-top: 50px; margin-bottom:50px;" role="document"> 
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLongTitle">Welcome to the yEAh Network!</h5>
