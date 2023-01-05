@@ -1,270 +1,241 @@
-<!DOCTYPE html>
-<html>
 <head>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="assets/style.css" rel="stylesheet">
+<!------ Include the above in your HEAD tag ---------->
 
-<style>
-#wrapper {
-   padding-left: 0;
-   -webkit-transition: all 0.5s ease;
-   -moz-transition: all 0.5s ease;
-   -o-transition: all 0.5s ease;
-   transition: all 0.5s ease;
-   overflow: hidden;
-}
-
-#wrapper.toggled {
-   padding-left: 250px;
-   overflow: hidden;
-}
-
-#sidebar-wrapper {
-   z-index: 1000;
-   position: absolute;
-   left: 250px;
-   width: 0;
-   height: 100%;
-   margin-left: -250px;
-   overflow-y: auto;
-   background: #000;
-   -webkit-transition: all 0.5s ease;
-   -moz-transition: all 0.5s ease;
-   -o-transition: all 0.5s ease;
-   transition: all 0.5s ease;
-}
-
-#wrapper.toggled #sidebar-wrapper {
-   width: 250px;
-}
-
-#page-content-wrapper {
-   position: absolute;
-   padding: 15px;
-   width: 100%;
-   overflow-x: hidden;
-}
-
-.xyz {
-   min-width: 360px;
-}
-
-#wrapper.toggled #page-content-wrapper {
-   position: relative;
-   margin-right: 0px;
-}
-
-.fixed-brand {
-   width: auto;
-}
-/* Sidebar Styles */
-
-.sidebar-nav {
-   position: absolute;
-   top: 0;
-   width: 250px;
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   margin-top: 2px;
-}
-
-.sidebar-nav li {
-   text-indent: 15px;
-   line-height: 40px;
-}
-
-.sidebar-nav li a {
-   display: block;
-   text-decoration: none;
-   color: #999999;
-}
-
-.sidebar-nav li a:hover {
-   text-decoration: none;
-   color: #fff;
-   background: rgba(255, 255, 255, 0.2);
-   border-left: red 2px solid;
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-   text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-   height: 65px;
-   font-size: 18px;
-   line-height: 60px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-   color: #999999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-   color: #fff;
-   background: none;
-}
-
-.no-margin {
-   margin: 0;
-}
-
-@media (min-width: 768px) {
-   #wrapper {
-      padding-left: 250px;
-   }
-   .fixed-brand {
-      width: 250px;
-   }
-   #wrapper.toggled {
-      padding-left: 0;
-   }
-   #sidebar-wrapper {
-      width: 250px;
-   }
-   #wrapper.toggled #sidebar-wrapper {
-      width: 250px;
-   }
-   #wrapper.toggled-2 #sidebar-wrapper {
-      width: 50px;
-   }
-   #wrapper.toggled-2 #sidebar-wrapper:hover {
-      width: 250px;
-   }
-   #page-content-wrapper {
-      padding: 20px;
-      position: relative;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-   }
-   #wrapper.toggled #page-content-wrapper {
-      position: relative;
-      margin-right: 0;
-      padding-left: 250px;
-   }
-   #wrapper.toggled-2 #page-content-wrapper {
-      position: relative;
-      margin-right: 0;
-      margin-left: -200px;
-      -webkit-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      transition: all 0.5s ease;
-      width: auto;
-   }
-}    
-   </style>
 </head>
 
 <body>
-   <nav class="navbar navbar-default no-margin">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header fixed-brand">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="menu-toggle">
-<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
-</button>
-         <a class="navbar-brand" href="#"><i class="fa fa-rocket fa-4"></i> M-33</a>
-      </div>
-      <!-- navbar-header-->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-         <ul class="nav navbar-nav">
-            <li class="active">
-               <button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
-               </button>
-            </li>
-         </ul>
-      </div>
-      <!-- bs-example-navbar-collapse-1 -->
-   </nav>
-   <div id="wrapper">
-      <!-- Sidebar -->
-      <div id="sidebar-wrapper">
-         <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
-            <li class="active">
-               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span> Dashboard</a>
-               <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                  <li><a href="#">link1</a></li>
-                  <li><a href="#">link2</a></li>
-               </ul>
-            </li>
-            <li>
-               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>Shortcut</a>
-               <ul class="nav-pills nav-stacked" style="list-style-type:none;">
-                  <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
-                  <li><a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
-               </ul>
-            </li>
-            <li>
-               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cloud-download fa-stack-1x "></i></span>Overview</a>
-            </li>
-            <li>
-               <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-cart-plus fa-stack-1x "></i></span>Events</a>
-            </li>
-            <li>
-               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-youtube-play fa-stack-1x "></i></span>About</a>
-            </li>
-            <li>
-               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-wrench fa-stack-1x "></i></span>Services</a>
-            </li>
-            <li>
-               <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x "></i></span>Contact</a>
-            </li>
-         </ul>
-      </div>
-      <!-- /#sidebar-wrapper -->
-      <!-- Page Content -->
-      <div id="page-content-wrapper">
-         <div class="container-fluid xyz">
-            <div class="row">
-               <div class="col-lg-12">
-                  <h1>Simple Admin Sidebar With Bootstrap by <a href="http://http://codepen.io/hughbalboa/">@hughbalboa</a></h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident laudantium nobis cum dignissimos ex inventore, velit blanditiis. Quod laborum soluta quidem culpa officia eligendi, quam, recusandae iste aliquid amet odit! </p>
-               </div>
+        <!--===================
+        Header
+        =======================-->
+        <header class="header">
+          <nav class="navbar navbar-toggleable-md navbar-light pt-0 pb-0 ">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand p-0 mr-5" href="#"><img src="http://via.placeholder.com/61x14"></a>
+            <div class="float-left"> <a href="#" class="button-left"><span class="fa fa-fw fa-bars "></span></a> </div>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown messages-menu">
+                  <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-bell-o"></i>
+                    <span class="label label-success bg-success">10</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <ul class="dropdown-menu-over list-unstyled">
+                      <li class="header-ul text-center">You have 4 messages</li>
+                      <li>
+                        <!-- inner menu: contains the actual data -->
+                        <ul class="menu list-unstyled">
+                          <li><!-- start message -->
+                          <a href="#">
+                            <div class="pull-left">
+                              <img src="http://via.placeholder.com/160x160" class="rounded-circle  " alt="User Image">
+                            </div>
+                            <h4>
+                            Support Team
+                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                            </h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <!-- end message -->
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <img src="http://via.placeholder.com/160x160" class="rounded-circle " alt="User Image">
+                            </div>
+                            <h4>
+                            AdminLTE Design Team
+                            <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                            </h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <img src="http://via.placeholder.com/160x160" class="rounded-circle " alt="User Image">
+                            </div>
+                            <h4>
+                            Developers
+                            <small><i class="fa fa-clock-o"></i> Today</small>
+                            </h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <img src="http://via.placeholder.com/160x160" class="rounded-circle " alt="User Image">
+                            </div>
+                            <h4>
+                            Sales Department
+                            <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                            </h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <div class="pull-left">
+                              <img src="http://via.placeholder.com/160x160" class="rounded-circle " alt="User Image">
+                            </div>
+                            <h4>
+                            Reviewers
+                            <small><i class="fa fa-clock-o"></i> 2 days</small>
+                            </h4>
+                            <p>Why not buy a new awesome theme?</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer-ul text-center"><a href="#">See All Messages</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item dropdown notifications-menu">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-envelope-o"></i>
+                  <span class="label label-warning bg-warning">10</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <ul class="dropdown-menu-over list-unstyled">
+                    <li class="header-ul text-center">You have 10 notifications</li>
+                    <li>
+                      <!-- inner menu: contains the actual data -->
+                      <ul class="menu list-unstyled">
+                        <li>
+                          <a href="#">
+                            <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
+                            page and may cause design problems
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa fa-users text-red"></i> 5 new members joined
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            <i class="fa fa-user text-red"></i> You changed your username
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="footer-ul text-center"><a href="#">View all</a></li>
+                  </ul>
+                </div>
+              </li>
+              
+              <li class="nav-item dropdown  user-menu">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="http://via.placeholder.com/160x160" class="user-image" alt="User Image" >
+                  <span class="hidden-xs">bootstrap develop</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="main">
+        <aside>
+          <div class="sidebar left ">
+            <div class="user-panel">
+              <div class="pull-left image">
+                <img src="http://via.placeholder.com/160x160" class="rounded-circle" alt="User Image">
+              </div>
+              <div class="pull-left info">
+                <p>bootstrap develop</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+              </div>
             </div>
-         </div>
-      </div>
-      <!-- /#page-content-wrapper -->
-   </div>
-   <!-- /#wrapper -->
-   <!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <ul class="list-sidebar bg-defoult">
+              <li> <a href="#" data-toggle="collapse" data-target="#dashboard" class="collapsed active" > <i class="fa fa-th-large"></i> <span class="nav-label"> Dashboards </span> <span class="fa fa-chevron-left pull-right"></span> </a>
+              <ul class="sub-menu collapse" id="dashboard">
+                <li class="active"><a href="#">CSS3 Animation</a></li>
+                <li><a href="#">General</a></li>
+                <li><a href="#">Buttons</a></li>
+                <li><a href="#">Tabs & Accordions</a></li>
+                <li><a href="#">Typography</a></li>
+                <li><a href="#">FontAwesome</a></li>
+                <li><a href="#">Slider</a></li>
+                <li><a href="#">Panels</a></li>
+                <li><a href="#">Widgets</a></li>
+                <li><a href="#">Bootstrap Model</a></li>
+              </ul>
+            </li>
+            <li> <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Layouts</span></a> </li>
+            <li> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active" > <i class="fa fa-bar-chart-o"></i> <span class="nav-label">Graphs</span> <span class="fa fa-chevron-left pull-right"></span> </a>
+            <ul class="sub-menu collapse" id="products">
+              <li class="active"><a href="#">CSS3 Animation</a></li>
+              <li><a href="#">General</a></li>
+              <li><a href="#">Buttons</a></li>
+              <li><a href="#">Tabs & Accordions</a></li>
+              <li><a href="#">Typography</a></li>
+              <li><a href="#">FontAwesome</a></li>
+              <li><a href="#">Slider</a></li>
+              <li><a href="#">Panels</a></li>
+              <li><a href="#">Widgets</a></li>
+              <li><a href="#">Bootstrap Model</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"><i class="fa fa-laptop"></i> <span class="nav-label">Grid options</span></a> </li>
+          <li> <a href="#" data-toggle="collapse" data-target="#tables" class="collapsed active" ><i class="fa fa-table"></i> <span class="nav-label">Tables</span><span class="fa fa-chevron-left pull-right"></span></a>
+          <ul  class="sub-menu collapse" id="tables" >
+            <li><a href=""> Static Tables</a></li>
+            <li><a href=""> Data Tables</a></li>
+            <li><a href=""> Foo Tables</a></li>
+            <li><a href=""> jqGrid</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" data-toggle="collapse" data-target="#e-commerce" class="collapsed active" ><i class="fa fa-shopping-cart"></i> <span class="nav-label">E-commerce</span><span class="fa fa-chevron-left pull-right"></span></a>
+        <ul  class="sub-menu collapse" id="e-commerce" >
+          <li><a href=""> Products grid</a></li>
+          <li><a href=""> Products list</a></li>
+          <li><a href="">Product edit</a></li>
+          <li><a href=""> Product detail</a></li>
+          <li><a href="">Cart</a></li>
+          <li><a href=""> Orders</a></li>
+          <li><a href=""> Credit Card form</a> </li>
+        </ul>
+      </li>
+      <li> <a href=""><i class="fa fa-pie-chart"></i> <span class="nav-label">Metrics</span> </a></li>
+      <li> <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span></a> </li>
+      <li> <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span></a> </li>
+      <li> <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span></a> </li>
+      <li> <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span></a> </li>
+      <li> <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Other Pages</span></a> </li>
+    </ul>
+    </div>
+    </aside>
+    </div>
+
 <script>
-$("#menu-toggle").click(function(e) {
-   e.preventDefault();
-   $("#wrapper").toggleClass("toggled");
+$(document).ready(function(){
+   $('.button-left').click(function(){
+       $('.sidebar').toggleClass('fliph');
+   });
+     
 });
-$("#menu-toggle-2").click(function(e) {
-   e.preventDefault();
-   $("#wrapper").toggleClass("toggled-2");
-   $('#menu ul').hide();
-});
-
-function initMenu() {
-   $('#menu ul').hide();
-   $('#menu ul').children('.current').parent().show();
-   //$('#menu ul:first').show();
-   $('#menu li a').click(
-      function() {
-         var checkElement = $(this).next();
-         if ((checkElement.is('ul')) && (checkElement.is(':visible'))) {
-            return false;
-         }
-         if ((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
-            $('#menu ul:visible').slideUp('normal');
-            checkElement.slideDown('normal');
-            return false;
-         }
-      }
-   );
-}
-$(document).ready(function() {
-   initMenu();
-});
-</script>
-</body>
-
-</html>
+</script>    
+  </body>
