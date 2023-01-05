@@ -44,6 +44,52 @@
 
 
 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script type="text/javascript">
+  $(window).on('load', function() {
+      $('#myModal').modal('show');
+  });
+</script>
+
+  <!-- Modal -->
+
+<!-- Modal -->
+<div class="modal hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Viewing quotes published by yEAh Games</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Before continuing to the yEAh Games <b>Quotes</b> Library Collection, please read and agree to the following:
+        <br>
+        <br>
+        <div class="alert alert-warning" role="alert">
+          The yEAh Games Corporation, LLC. provides the medium to publish quotes. Quotes are user-generated; this means that yEAh Games does not necessarily either review nor affiliate with any quote(s) published using our medium. If you have a problem with one of our quotes, you can <a href="https://yeahgames.net/contact">contact us</a> and we’ll review it, but this does not mean we are responsible for the quote(s). Contact the submitter for information regarding the quote(s). <br><b>You can view the full legal disclaimer <a href="https://library.yeahgames.net/posts/quote-disclaimer">here</a></b>.
+        </div>
+        <div class="alert alert-danger" role="alert">
+          Content located on this collection is viewable at the user's discretion. Certain content may be considered <b>"not safe for work"</b>.<br> We are not liable for any content hosted on the Quotes collection.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="https://yeahgames.net"><button type="button" class="btn btn-secondary">Deny</button></a>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Accept</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 <!-- START NAVBAR --> 
 <div class="w3-top network-nav">
   <div class="w3-bar w3-theme-d2 w3-left-align">
@@ -80,7 +126,7 @@
     <!--Dropdown: Deprecated-->
   
   <div class="w3-dropdown-hover w3-hide-small">
-    <button class="w3-button" title="Deprecated yEAh Games websites (out-of-date; not updated)"><i class="fa-solid fa-square-xmark w3-margin-right"></i>Deprecated <i class="fa fa-caret-down"></i></button>     
+    <button class="w3-button" title="Deprecated yEAh Games websites (out-of-date; not updated)"><i class="fa-solid fa-x w3-margin-right"></i>Deprecated <i class="fa fa-caret-down"></i></button>     
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
       <a href="https://yeaharchives.wordpress.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-archive w3-margin-right"></i>Discontinued archives</a>
       <a href="https://yeah-games.weebly.com"  target=”_blank” class="w3-bar-item w3-button"><i class="fa fa-desktop w3-margin-right"></i>Discontinued website</a>
