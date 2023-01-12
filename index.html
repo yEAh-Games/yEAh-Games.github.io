@@ -212,6 +212,76 @@ i {
 
 <body>
 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <script type="text/javascript">
+    $(window).on('load', function() {
+        $('#myModal').modal('show');
+    });
+  </script>
+  
+    <!-- Modal -->
+  
+  <!-- Modal -->
+  <div class="modal hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document"> 
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Welcome to the yEAh Network!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          You're trying to access the yEAh Network updated homepage & directory at yeahgames.net.
+          <br>
+          <br>
+          <div class="alert alert-primary" role="alert">
+            <b>Why am I here?</b>
+            <br>
+            If you're not sure how you got here or what this is, yeahgames.net is the new yEAh Games "website," but instead of working on various websites and posting unrelated stuff to an Archive, we've moved to an open-source, custom format known as the yEAh Games Network, which houses all yEAh Games sites and Archives under one roof, all accessible from yeahgames.net, and the source code is viewable at <a href="//github.com/yeah-games">>G/YG</a>.
+            <br>
+            <b>Were you looking for <a href="//yeaharchives.wordpress.com">yeahgames.pro</a></b>? That website will no longer be updated, but it will still be running until the Network is fully functioning. We recommend checking out the <a href="https://library.yeahgames.net">Main library</a> for up-to-date Archive content.
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <b>What's going on with yeahgames.net?</b>
+            <br>
+            The homepage is currently under construction as it's undergoing a UI update, so features may not work as intended.
+            <br>
+            If you're looking for something, we advise you use the <a href="//yeahgames.net/old">Old homepage (/old)</a> until we've completed the update.
+          </div>
+          <div class="alert alert-info" role="alert">
+            <b>What's happening to the homepage?</b>
+            Previously, the homepage and directory was a crude, plain-text page with text hyperlinks to various parts of the website. It is now going through a UI, format, bug, library, and general resource update, so it's easily accessible to users, works on all devices, and is standard with formatting and libraries across the Network.
+          </div>
+          <div class="alert alert-success" role="alert">
+            <b>What's being updated?</b>
+            <br>
+            This update includes, but is not limited to, the following changes:
+            <br>
+            <ul>
+            <li> A new, detailed sidebar that will contain quicklinks to everywhere around the yEAh Network, including pages and subpages of websites on the Network. It will be organized into sections for each website, which will all be collasable so you can find what you want, quickly.
+            <li> A homepage "dashboard" directory that will showcase important news, events, changes, etc. from across the Network and its sites at the top to be easily viewed and accessed. We may showcase important events, like the elections, or new archive material published to a collection, or interesting news and changes.  
+            <li> We're aiming to keep load times fast and the menu simple, so there should only be those two major changes, with no extra pages or features. Just a directory to easily guide users to their destination.
+            <li> Technical and small changes are also taking place, such as: Updating the NetworkNavbar to use the most recent version of Bootstrap instead of W3CSS (which is a modified older BTSRP); along with updating all icons and SVG rendering to use FontAwesome 6.0 (free), which offers many new icons and smoother old ones, including Brand and Solid JS libraries; and rolling out standardized features to all Network sites, including standard Bootstrap 5.0 instead of varying style libraries.   
+            </ul>          
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://library.yeahgames.net/"><button type="button" class="btn btn-secondary">The Library</button></a>
+          <a href="https://yeaharchives.wordpress.com/"><button type="button" class="btn btn-secondary">yeahgames.pro</button></a>
+          <a href="https://yeahgames.net/old"><button type="button" class="btn btn-secondary">Old homepage</button></a>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
@@ -331,71 +401,6 @@ jQuery(document).ready(function($){
     </div>
 </nav>
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-<script type="text/javascript">
-  $(window).on('load', function() {
-      $('#myModal').modal('show');
-  });
-</script>
-
-  <!-- Modal -->
-
-<!-- Modal -->
-<div class="modal hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered" role="document"> 
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Welcome to the yEAh Network!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        You're trying to access the yEAh Network updated homepage & directory at yeahgames.net.
-        <br>
-        <br>
-        <div class="alert alert-primary" role="alert">
-          <b>Why am I here?</b>
-          <br>
-          If you're not sure how you got here or what this is, yeahgames.net is the new yEAh Games "website," but instead of working on various websites and posting unrelated stuff to an Archive, we've moved to an open-source, custom format known as the yEAh Games Network, which houses all yEAh Games sites and Archives under one roof, all accessible from yeahgames.net, and the source code is viewable at <a href="//github.com/yeah-games">>G/YG</a>.
-          <br>
-          <b>Were you looking for <a href="//yeaharchives.wordpress.com">yeahgames.pro</a></b>? That website will no longer be updated, but it will still be running until the Network is fully functioning. We recommend checking out the <a href="https://library.yeahgames.net">Main library</a> for up-to-date Archive content.
-        </div>
-        <div class="alert alert-warning" role="alert">
-          <b>What's going on with yeahgames.net?</b>
-          <br>
-          The homepage is currently under construction as it's undergoing a UI update, so features may not work as intended.
-          <br>
-          If you're looking for something, we advise you use the <a href="//yeahgames.net/old">Old homepage (/old)</a> until we've completed the update.
-        </div>
-        <div class="alert alert-info" role="alert">
-          <b>What's happening to the homepage?</b>
-          Previously, the homepage and directory was a crude, plain-text page with text hyperlinks to various parts of the website. It is now going through a UI, format, bug, library, and general resource update, so it's easily accessible to users, works on all devices, and is standard with formatting and libraries across the Network.
-        </div>
-        <div class="alert alert-success" role="alert">
-          <b>What's being updated?</b>
-          <br>
-          This update includes, but is not limited to, the following changes:
-          <br>
-          <ul>
-          <li> A new, detailed sidebar that will contain quicklinks to everywhere around the yEAh Network, including pages and subpages of websites on the Network. It will be organized into sections for each website, which will all be collasable so you can find what you want, quickly.
-          <li> A homepage "dashboard" directory that will showcase important news, events, changes, etc. from across the Network and its sites at the top to be easily viewed and accessed. We may showcase important events, like the elections, or new archive material published to a collection, or interesting news and changes.  
-          <li> We're aiming to keep load times fast and the menu simple, so there should only be those two major changes, with no extra pages or features. Just a directory to easily guide users to their destination.
-          <li> Technical and small changes are also taking place, such as: Updating the NetworkNavbar to use the most recent version of Bootstrap instead of W3CSS (which is a modified older BTSRP); along with updating all icons and SVG rendering to use FontAwesome 6.0 (free), which offers many new icons and smoother old ones, including Brand and Solid JS libraries; and rolling out standardized features to all Network sites, including standard Bootstrap 5.0 instead of varying style libraries.   
-          </ul>          
-        </div>
-      </div>
-      <div class="modal-footer">
-        <a href="https://library.yeahgames.net/"><button type="button" class="btn btn-secondary">The Library</button></a>
-        <a href="https://yeaharchives.wordpress.com/"><button type="button" class="btn btn-secondary">yeahgames.pro</button></a>
-        <a href="https://yeahgames.net/old"><button type="button" class="btn btn-secondary">Old homepage</button></a>
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Continue</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
