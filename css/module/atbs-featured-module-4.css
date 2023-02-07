@@ -1,0 +1,42 @@
+/*************************
+*
+*  Featured Module 4
+*
+*************************/
+@media (max-width: 1680px) and (min-width: 1441px), (max-width: 767px) and (min-width: 576px) {
+    .post--overlay-normal time {
+        display: none;
+    }
+    .post--overlay-normal .post-tags {
+        margin-bottom: 20px;
+    }
+
+    .post--overlay-normal.post--overlay .post__text {
+        min-height: 390px;
+    }
+}
+@media (max-width: 1440px) {
+    .atbs-featured-module-4 .posts-list > * {
+        width: 50%;
+    }
+}
+@media (max-width: 1440px) {
+    .atbs-featured-module-4 .posts-list > * {
+        width: 50%;
+    }
+}
+@media (max-width: 991px) {
+    .post--overlay-normal.post--overlay .post__text {
+        min-height: 350px;
+    }
+}
+@media (max-width: 767px) {
+    .post--overlay-normal.post--overlay .post__text {
+        min-height: 330px;
+    }
+}
+@media (max-width: 575px) {
+    .atbs-featured-module-4 .posts-list > * {
+        width: 100%;
+    }
+}

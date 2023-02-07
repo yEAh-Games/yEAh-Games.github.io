@@ -1,0 +1,141 @@
+/*************************
+*
+*  Post Listing Grid 2 Has Sidebar
+*
+*************************/
+.post--vertical-card-background {
+    background-color: var(--background-secondary);
+}
+.post--vertical-card-background .post__thumb {
+    margin-bottom: 0;
+    height: 165px;
+}
+
+
+.post--vertical-card-background {
+    padding: 15px 15px 18px 15px;
+    border-radius: 8px;
+}
+
+
+.post--vertical-card-background .post__text {
+    padding-top: 35px;
+}
+.post--vertical-card-background .post__title {
+    margin-bottom: 13px;
+}
+.post--vertical-card-background .post__cat.post__cat-overlap {
+    bottom: 100%;
+    left: 20px;
+    position: absolute;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+.post--vertical-card-background .post-author__avatar {
+    position: absolute;
+    bottom: 100%;
+    right: 20px;
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+    margin: 0;
+}
+.post--vertical-card-background .text-center .post-author__avatar {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+}
+.post--vertical-card-background .post__meta {
+    margin-top: 25px;
+    padding-top: 18px;
+    border-top: 1px solid var(--color-border);
+}
+
+.border-avatar .post-author__avatar {
+    border: 5px solid #222222;
+    width: 60px;
+    height: 60px;
+}
+@media (max-width: 1680px) and (min-width: 1441px) {
+    .post--vertical-card-background .post__meta {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .post--vertical-card-background time {
+        display: none;
+    }
+}
+@media (max-width: 1545px) and (min-width: 1441px){
+    .post--vertical-card-background .post__title {
+        font-size: 1.2857rem;
+    }
+}
+
+@media (max-width: 1440px) and (min-width: 1367px){
+    .post--vertical-card-background .post__thumb {
+        height: 200px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .post--vertical-card-background .post__thumb {
+        height: 220px;
+    }
+    .post--vertical-card-background .post__title {
+        margin-bottom: 12px;
+    }
+    .border-avatar .post-author__avatar {
+        border: 5px solid #222222;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .post--vertical-card-background .post__thumb {
+        height: 230px;
+    }
+    .post--vertical-card-background .post__cat {
+        top: 30px;
+        left: 25px;
+    }
+    .post--vertical-card-background .post-author__avatar {
+        right: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .post--vertical-card-background .post__thumb {
+        height: 210px;
+    }
+    .post--vertical-card-background .post__text {
+
+    }
+    .post--vertical-card-background .post__title {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 680px) {
+    .post--vertical-card-background .post__thumb {
+        height: 180px;
+    }
+}
+@media (max-width: 575px) {
+    .post--vertical-card-background .post__thumb {
+        height: 220px;
+    }
+}
+@media (max-width: 480px) {
+    .post--vertical-card-background .post__thumb {
+        height: 200px;
+    }
+}
+@media (max-width: 380px) {
+    .post--vertical-card-background .post__thumb {
+        height: 180px;
+    }
+}

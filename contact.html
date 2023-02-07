@@ -132,19 +132,28 @@
         </nav><!-- Navigation-bar -->
     </header><!-- Site header -->
     <div class="site-content">
-        <div class="atbs-block atbs-block--fullwidth atbs-section-module-404">
-            <div class="atbs-block__inner text-center">
-                <h3 class="page-404-heading-number">404</h3>
-                <h4 class="page-404-heading-title f-46 f-w-700">Page Not Found</h4>
-                <p class="page-404-description f-18 f-w-400">Come back, you're wandering too far! We couldn't find the page you're looking for. Try searching or go back to the <a href="index.html">Homepage</a></p>
-                <form class="search-form" method="get" action="#">
-                    <div class="search-form__input-wrap">
-                        <input type="text" name="s" class="search-form__input" placeholder="Search" value="">
-                    </div>
-                    <div class="search-form__submit-wrap">
-                        <button type="submit" class="search-form__submit btn btn-primary">Search</button>
-                    </div>
-                </form>
+        <div class="atbs-block atbs-block--fullwidth atbs-section-module-contact">
+            <div class="block-heading block-heading_style-1 block-heading-no-line">
+                <h4 class="block-heading__title">
+                    Contact
+                </h4>
+            </div>
+            <div class="atbs-block__inner">
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d193595.66904233702!2d-73.979681!3d40.69748800000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1627980608498!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contact-form inverse-text">
+                    <form action="#">
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="name"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+
+                        <label for="contactform-message">Message</label>
+                        <textarea class="required form-control" id="contactform-message" name="contactform-message" rows="6" cols="30" aria-required="true"></textarea>
+                        <button class="btn btn-primary contactform-submit" type="submit" id="contactform-submit" name="contactform-submit" value="submit">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div><!-- .site-content -->
