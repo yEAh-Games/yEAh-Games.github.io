@@ -1,0 +1,18 @@
+:root {
+    --color-primary:                #EC1746;
+    --color-secondary:              #F9B700;
+    --background-primary:           #0C0E14;
+    --background-secondary:         #1D1F24;
+    --color-title:                  #F6F6F6;
+    --color-excerpt:                rgba(255,255,255,0.4);
+    --color-meta:                   rgba(255,255,255,0.8);
+    --color-border:                 rgba(255,255,255,0.1);
+    --color-button:                 #222222;
+    --color-white:                  #F6F6F6;
+    --color-bg:                     #222222;
+    --color-white-contrast-90:      rgba(255,255,255,0.9);
+    --color-white-contrast-80:      rgba(255,255,255,0.8);
+    --color-white-contrast-60:      rgba(255,255,255,0.6);
+    --color-white-contrast-50:      rgba(255,255,255,0.5);
+    --color-white-contrast-40:      rgba(255,255,255,0.4);
+}

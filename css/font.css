@@ -1,0 +1,27 @@
+.post__title,
+.block-heading,
+.widget__title, .entry-title,
+.social-share-label,.single-next-article-box .next-article-popup-heading,
+.post-tags a, .list-index, .entry-tags ul>li>a,
+.atbs-section-module-404, .btn-default {
+    font-family: 'Poppins', sans-serif;
+}
+.navigation--main>li>a, .navigation--offcanvas>li>a,
+.site-footer .navigation li a,
+.navigation--main .sub-menu a,
+.copy-right,
+.post__cat, a.post__cat,
+.entry-cat, a.entry-cat,
+.post__meta, .block-heading__subtitle,
+.post__excerpt, .entry-excerpt,
+.comments-count, .view-count,
+.author-box .author-name a,
+.author-box .author-bio,
+.entry-teaser,.entry-author a.entry-author__name, .entry-meta,
+.time-style-1 time ,
+.post-author_style-5 .post-author__text time,
+.post__readmore-style-1 .readmore__text,
+.time-style-1 time.time,.single-body, .social-title,
+.page-404-description {
+    font-family: 'Roboto', sans-serif;
+}

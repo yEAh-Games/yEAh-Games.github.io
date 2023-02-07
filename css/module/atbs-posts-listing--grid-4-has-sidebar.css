@@ -1,0 +1,35 @@
+/*************************
+*
+*  Post Listing Grid 4 Has Sidebar
+*
+*************************/
+.post--vertical-card-no-background .post__thumb {
+    margin-bottom: 0;
+    height: 230px;
+}
+.post--vertical-card-no-background .post__text {
+    padding-top: 40px;
+}
+.post--vertical-card-no-background .post-author__avatar {
+    position: absolute;
+    left: 20px;
+    bottom: 100%;
+    border-color: var(--background-primary);
+    -webkit-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+.post--vertical-card-no-background .post-author__text {
+    display: none;
+}
+
+
+.post--vertical-card-no-background .post__title {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.post--vertical-card-no-background .post__title:hover {
+    color: var(--color-primary);
+}
