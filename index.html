@@ -3,23 +3,143 @@
 <head>
     <!-- Basic -->
     <meta charset="UTF-8">
-    <title>UniDark</title>
-    <meta name="keywords" content="HTML5 News Magazine Template"/>
-    <meta name="description" content="Unidark - Ultimate News and Magazine Template">
-    <meta name="author" content="designuptodate.com">
+    <title>The yEAh Games Network</title>
+    <meta name="keywords" content="yEAh Network homepage"/>
+    <meta name="description" content="The official homepage of the yEAh Games Network.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
     <!-- Favicon -->
-    <link rel="icon" href="img/favicon.png" sizes="32x32"/>
-    <link rel="icon" href="img/favicon.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="img/favicon.png"/>
-    <meta name="msapplication-TileImage" content="img/favicon.png"/>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ff4747">
+    <meta name="msapplication-TileColor" content="#ff4747">
+    <meta name="theme-color" content="#ffffff">
+    
+    
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Theme CSS -->
     <link href="css/import-style.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+
+.topnav {
+  overflow: hidden;
+  background-color: #23272A;
+  z-index: 1000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #ff4747;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Arial black;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}    
+
+.network-nav{z-index: 99999}
+</style>
 </head>
+
+  
 <body class="home home-1 has-block-heading-line">
+
+
 
 <!-- .site-wrapper -->
 <div class="site-wrapper" >
@@ -135,175 +255,52 @@
     <div class="site-content">
         <div class="flex-box">
             <div class="atbs-block atbs-block--fullwidth atbs-section-module">
-                <div class="atbs-block atbs-block--fullwidth atbs-featured-module-1">
-                    <div class="atbs-block__inner">
-                        <div class="section-main">
-                            <article class="post post--overlay post--overlay-middle post--overlay-large post--overlay-height-680 post--overlay-padding-lg">
-                                <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                    <a href="./single-1.html">
-                                        <img src="http://via.placeholder.com/1920x1080" alt="file not found">
-                                    </a>
-                                </div>
-                                <div class="post__text inverse-text">
-                                    <div class="post__text-wrap">
-                                        <div class="post__text-inner max-width-640">
-                                            <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
-                                            <h3 class="post__title f-40 f-w-700 m-b-15 max-width-640">
-                                                <a href="./single-1.html">I Was Trying To Daydream But My Mind Kept Wander.</a>
-                                            </h3>
-                                            <div class="post__meta">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                        <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="./single-1.html" class="link-overlay"></a>
-                            </article>
-                        </div>
-                        <div class="section-sub">
-                            <div class="owl-carousel js-atbs-carousel-4i30m atbs-carousel dots-circle dots-white" data-carousel-loop="true">
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="#">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="#">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="atbs-block atbs-block--fullwidth atbs-featured-module-3">
                     <div class="block-heading block-heading_style-1 block-heading-no-line">
                         <h4 class="block-heading__title">
-                            Featured News
+                            Featured Posts
                         </h4>
                     </div>
                     <div class="atbs-block__inner">
                         <div class="posts-list flex-box flex-space-30 flex-box-4i posts-list-tablet-2i">
                             <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
+                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
+                                    <div class="post__thumb object-fit">
+                                        <a href="https://quotes.yeahgames.net">
+                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
+                                        </a>
+                                    </div>
+                                    <div class="post__text flex-box flex-direction-column inverse-text">
+                                        <div class="post__text-group">
+                                            <a href="./category.html" class="post__cat post__cat-primary">GADGETS</a>
+                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
+                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
+                                            </h3>
+                                            <div class="post-tags">
+                                                <ul class="list-unstyled list-horizontal">
+                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
+                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="post__text-group flex-item-auto-bottom">
+                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
+                                                <div class="post-author post-author_style-6">
+                                                    <div class="post-author__text">
+                                                        <div class="author_name--wrap">
+                                                            <span>by</span>
+                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="list-item">
+                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
                                     <div class="post__thumb object-fit">
                                         <a href="./single-1.html">
                                             <img src="http://via.placeholder.com/250x150" alt="File not found">
@@ -339,10 +336,10 @@
                                 </article>
                             </div>
                             <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
+                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
                                     <div class="post__thumb object-fit">
                                         <a href="./single-1.html">
-                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/SMPTE_Color_Bars.svg/1200px-SMPTE_Color_Bars.svg.png" alt="File not found">
                                         </a>
                                     </div>
                                     <div class="post__text flex-box flex-direction-column inverse-text">
@@ -375,43 +372,7 @@
                                 </article>
                             </div>
                             <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
-                                    <div class="post__thumb object-fit">
-                                        <a href="./single-1.html">
-                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="./category.html" class="post__cat post__cat-primary">GADGETS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
+                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
                                     <div class="post__thumb object-fit">
                                         <a href="./single-1.html">
                                             <img src="http://via.placeholder.com/250x150" alt="File not found">
@@ -451,28 +412,27 @@
                 </div>
                 <div class="flex-box">
                     <div class="atbs-main-col">
-                        <div class="atbs-block atbs-block--fullwidth atbs-posts-block-main-col-2" style="margin-bottom: 30px">
+                        <div class="atbs-block atbs-block--fullwidth atbs-posts-block-main-col-1">
                             <div class="block-heading block-heading_style-1 block-heading-no-line">
                                 <h4 class="block-heading__title">
-                                    editor's choise
+                                    Featured News
                                 </h4>
                             </div>
                             <div class="atbs-block__inner flex-box">
                                 <div class="section-main">
-                                    <div class="owl-carousel js-atbs-carousel-1i atbs-carousel dots-circle nav-circle nav-horizontal nav-white">
-                                        <div class="slide-content">
-                                            <article class="post post--vertical post--vertical-card-overlap post--vertical-card-overlap-large">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html">
-                                                        <img src="http://via.placeholder.com/800x400" alt="File not found">
-                                                    </a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-26 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-large post--overlay-bottom post--overlay-height-570 b-r-8">
+                                        <div class="post__thumb post__thumb--overlay object-fit b-r-8 post__thumb-radius">
+                                            <a href="./single-1.html">
+                                                <img src="http://via.placeholder.com/800x700" alt="file not found">
+                                            </a>
+                                        </div>
+                                        <div class="post__text inverse-text">
+                                            <div class="post__text-wrap">
+                                                <div class="post__text-inner">
+                                                    <h3 class="post__title f-26 f-w-700 m-b-10 max-width-640">
+                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
                                                     </h3>
-                                                    <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post__meta">
                                                         <div class="post-author post-author_style-7">
                                                             <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
                                                                 <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
@@ -482,72 +442,16 @@
                                                                     <span>by</span>
                                                                     <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                                 </div>
+                                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                             </div>
                                                         </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                     </div>
                                                 </div>
-                                            </article>
+                                            </div>
                                         </div>
-                                        <div class="slide-content">
-                                            <article class="post post--vertical post--vertical-card-overlap post--vertical-card-overlap-large">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html">
-                                                        <img src="http://via.placeholder.com/800x400" alt="File not found">
-                                                    </a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-26 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                        <div class="post-author post-author_style-7">
-                                                            <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                                <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                            </a>
-                                                            <div class="post-author__text">
-                                                                <div class="author_name--wrap">
-                                                                    <span>by</span>
-                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="slide-content">
-                                            <article class="post post--vertical post--vertical-card-overlap post--vertical-card-overlap-large">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html">
-                                                        <img src="http://via.placeholder.com/800x400" alt="File not found">
-                                                    </a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-26 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                        <div class="post-author post-author_style-7">
-                                                            <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                                <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                            </a>
-                                                            <div class="post-author__text">
-                                                                <div class="author_name--wrap">
-                                                                    <span>by</span>
-                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                    </div>
+                                        <a href="./single-1.html" class="link-overlay"></a>
+                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
+                                    </article>
                                 </div>
                                 <div class="section-sub">
                                     <div class="posts-list flex-box flex-box-1i">
@@ -619,333 +523,467 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="atbs-block atbs-block--fullwidth atbs-posts-listing--grid-4-has-sidebar">
+                        <div class="atbs-block atbs-block--fullwidth atbs-posts-block-main-col-4">
+                            <div class="block-heading block-heading_style-1 block-heading-no-line">
+                                <h4 class="block-heading__title">
+                                    editor's choise
+                                </h4>
+                            </div>
                             <div class="atbs-block__inner flex-box">
-                                <div class="posts-list flex-box flex-box-3i flex-space-30 posts-list-tablet-2i">
-                                    <div class="list-item">
-                                        <article class="post post--vertical post--vertical-card-no-background">
-                                            <div class="post__thumb object-fit b-r-8 post__thumb-radius">
+                                <div class="section-main">
+                                    <div class="owl-carousel js-atbs-carousel-1i atbs-carousel dots-circle nav-circle nav-white">
+                                        <div class="slide-content">
+                                            <article class="post post--vertical post--vertical-card-background post--vertical-card-thumb-circle" data-dark-mode="true">
+                                                <div class="post__thumb object-fit b-r-8 post__thumb-radius">
+                                                    <a href="./single-1.html">
+                                                        <img src="http://via.placeholder.com/400x400" alt="File not found">
+                                                    </a>
+                                                </div>
+                                                <div class="post__text inverse-text text-center">
+                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
+                                                    <h3 class="post__title f-26 f-w-700 m-b-15 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                    </h3>
+                                                    <div class="post__excerpt atbs-line-limit atbs-line-limit-3 m-b-20 max-width-300">
+                                                        For those who need convincing that fashion is a form of art....
+                                                    </div>
+                                                    <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top m-t-50">
+                                                        <div class="post-author post-author_style-6">
+                                                            <div class="post-author__text">
+                                                                <div class="author_name--wrap">
+                                                                    <span>by</span>
+                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="slide-content">
+                                            <article class="post post--vertical post--vertical-card-background post--vertical-card-thumb-circle" data-dark-mode="true">
+                                                <div class="post__thumb object-fit b-r-8 post__thumb-radius">
+                                                    <a href="./single-1.html">
+                                                        <img src="http://via.placeholder.com/400x400" alt="File not found">
+                                                    </a>
+                                                </div>
+                                                <div class="post__text inverse-text text-center">
+                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
+                                                    <h3 class="post__title f-26 f-w-700 m-b-15 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                    </h3>
+                                                    <div class="post__excerpt atbs-line-limit atbs-line-limit-3 m-b-20 max-width-300">
+                                                        For those who need convincing that fashion is a form of art....
+                                                    </div>
+                                                    <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top m-t-50">
+                                                        <div class="post-author post-author_style-6">
+                                                            <div class="post-author__text">
+                                                                <div class="author_name--wrap">
+                                                                    <span>by</span>
+                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="slide-content">
+                                            <article class="post post--vertical post--vertical-card-background post--vertical-card-thumb-circle" data-dark-mode="true">
+                                                <div class="post__thumb object-fit b-r-8 post__thumb-radius">
+                                                    <a href="./single-1.html">
+                                                        <img src="http://via.placeholder.com/400x400" alt="File not found">
+                                                    </a>
+                                                </div>
+                                                <div class="post__text inverse-text text-center">
+                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
+                                                    <h3 class="post__title f-26 f-w-700 m-b-15 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                    </h3>
+                                                    <div class="post__excerpt atbs-line-limit atbs-line-limit-3 m-b-20 max-width-300">
+                                                        For those who need convincing that fashion is a form of art....
+                                                    </div>
+                                                    <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top m-t-50">
+                                                        <div class="post-author post-author_style-6">
+                                                            <div class="post-author__text">
+                                                                <div class="author_name--wrap">
+                                                                    <span>by</span>
+                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="slide-content">
+                                            <article class="post post--vertical post--vertical-card-background post--vertical-card-thumb-circle" data-dark-mode="true">
+                                                <div class="post__thumb object-fit b-r-8 post__thumb-radius">
+                                                    <a href="./single-1.html">
+                                                        <img src="http://via.placeholder.com/400x400" alt="File not found">
+                                                    </a>
+                                                </div>
+                                                <div class="post__text inverse-text text-center">
+                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
+                                                    <h3 class="post__title f-26 f-w-700 m-b-15 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                    </h3>
+                                                    <div class="post__excerpt atbs-line-limit atbs-line-limit-3 m-b-20 max-width-300">
+                                                        For those who need convincing that fashion is a form of art....
+                                                    </div>
+                                                    <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top m-t-50">
+                                                        <div class="post-author post-author_style-6">
+                                                            <div class="post-author__text">
+                                                                <div class="author_name--wrap">
+                                                                    <span>by</span>
+                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="section-sub">
+                                    <div class="post-main">
+                                        <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-medium post--overlay-bottom post--overlay-height-340 b-r-8">
+                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
+                                                    <img src="http://via.placeholder.com/800x400" alt="file not found">
                                                 </a>
-                                                <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                             </div>
-                                            <div class="post__text inverse-text author-avatar-right">
-
-                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                </h3>
-                                                <div class="post__meta border-avatar">
-                                                    <div class="post-author post-author_style-7">
-                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                        </a>
-                                                        <div class="post-author__text">
-                                                            <div class="author_name--wrap">
-                                                                <span>by</span>
-                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                            <div class="post__text inverse-text">
+                                                <div class="post__text-wrap">
+                                                    <div class="post__text-inner">
+                                                        <h3 class="post__title f-24 f-w-700 m-b-10 max-width-520">
+                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
+                                                        </h3>
+                                                        <div class="post__meta">
+                                                            <div class="post-author post-author_style-7">
+                                                                <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                                    <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                                </a>
+                                                                <div class="post-author__text">
+                                                                    <div class="author_name--wrap">
+                                                                        <span>by</span>
+                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
+                                                                    </div>
+                                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
+                                            <a href="./single-1.html" class="link-overlay"></a>
+                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
-                                    <div class="list-item">
-                                        <article class="post post--vertical post--vertical-card-no-background">
-                                            <div class="post__thumb object-fit b-r-8 post__thumb-radius">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                                </a>
-                                                <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                            </div>
-                                            <div class="post__text inverse-text author-avatar-right">
-
-                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                </h3>
-                                                <div class="post__meta border-avatar">
-                                                    <div class="post-author post-author_style-7">
-                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                        </a>
-                                                        <div class="post-author__text">
-                                                            <div class="author_name--wrap">
-                                                                <span>by</span>
-                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                            </div>
-
+                                    <div class="post-sub scrollbar-overflowing flex-box-auto">
+                                        <div class="post-sub__inner">
+                                            <div class="posts-list">
+                                                <div class="list-item">
+                                                    <article class="post post--horizontal post--horizontal-xs post--horizontal-long post--horizontal-middle">
+                                                        <div class="post__thumb object-fit b-r-5 post__thumb-radius">
+                                                            <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
                                                         </div>
-                                                    </div>
-                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                        <div class="post__text inverse-text">
+                                                            <h3 class="post__title f-18 f-w-600 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
+                                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
+                                                            </h3>
+                                                            <div class="post__meta flex-box time-style-1">
+                                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                            </div>
+                                                            <div class="post__readmore post__readmore-circle">
+                                                                <a href="./single-1.html">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.207" height="13.414" viewBox="0 0 7.207 13.414">
+                                                                        <path data-name="Path 1514" d="M9,5l6,6L9,17" transform="translate(-8.293 -4.293)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="list-item">
+                                                    <article class="post post--horizontal post--horizontal-xs post--horizontal-long post--horizontal-middle">
+                                                        <div class="post__thumb object-fit b-r-5 post__thumb-radius">
+                                                            <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
+                                                        </div>
+                                                        <div class="post__text inverse-text">
+                                                            <h3 class="post__title f-18 f-w-600 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
+                                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
+                                                            </h3>
+                                                            <div class="post__meta flex-box time-style-1">
+                                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                            </div>
+                                                            <div class="post__readmore post__readmore-circle">
+                                                                <a href="./single-1.html">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.207" height="13.414" viewBox="0 0 7.207 13.414">
+                                                                        <path data-name="Path 1514" d="M9,5l6,6L9,17" transform="translate(-8.293 -4.293)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="list-item">
+                                                    <article class="post post--horizontal post--horizontal-xs post--horizontal-long post--horizontal-middle">
+                                                        <div class="post__thumb object-fit b-r-5 post__thumb-radius">
+                                                            <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
+                                                        </div>
+                                                        <div class="post__text inverse-text">
+                                                            <h3 class="post__title f-18 f-w-600 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
+                                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
+                                                            </h3>
+                                                            <div class="post__meta flex-box time-style-1">
+                                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                            </div>
+                                                            <div class="post__readmore post__readmore-circle">
+                                                                <a href="./single-1.html">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.207" height="13.414" viewBox="0 0 7.207 13.414">
+                                                                        <path data-name="Path 1514" d="M9,5l6,6L9,17" transform="translate(-8.293 -4.293)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="list-item">
+                                                    <article class="post post--horizontal post--horizontal-xs post--horizontal-long post--horizontal-middle">
+                                                        <div class="post__thumb object-fit b-r-5 post__thumb-radius">
+                                                            <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
+                                                        </div>
+                                                        <div class="post__text inverse-text">
+                                                            <h3 class="post__title f-18 f-w-600 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
+                                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
+                                                            </h3>
+                                                            <div class="post__meta flex-box time-style-1">
+                                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                            </div>
+                                                            <div class="post__readmore post__readmore-circle">
+                                                                <a href="./single-1.html">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.207" height="13.414" viewBox="0 0 7.207 13.414">
+                                                                        <path data-name="Path 1514" d="M9,5l6,6L9,17" transform="translate(-8.293 -4.293)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                                <div class="list-item">
+                                                    <article class="post post--horizontal post--horizontal-xs post--horizontal-long post--horizontal-middle">
+                                                        <div class="post__thumb object-fit b-r-5 post__thumb-radius">
+                                                            <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
+                                                        </div>
+                                                        <div class="post__text inverse-text">
+                                                            <h3 class="post__title f-18 f-w-600 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
+                                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
+                                                            </h3>
+                                                            <div class="post__meta flex-box time-style-1">
+                                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
+                                                            </div>
+                                                            <div class="post__readmore post__readmore-circle">
+                                                                <a href="./single-1.html">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="7.207" height="13.414" viewBox="0 0 7.207 13.414">
+                                                                        <path data-name="Path 1514" d="M9,5l6,6L9,17" transform="translate(-8.293 -4.293)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+                                                                    </svg>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </article>
                                                 </div>
                                             </div>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--vertical post--vertical-card-no-background">
-                                            <div class="post__thumb object-fit b-r-8 post__thumb-radius">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                                </a>
-                                                <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                            </div>
-                                            <div class="post__text inverse-text author-avatar-right">
-
-                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                </h3>
-                                                <div class="post__meta border-avatar">
-                                                    <div class="post-author post-author_style-7">
-                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                        </a>
-                                                        <div class="post-author__text">
-                                                            <div class="author_name--wrap">
-                                                                <span>by</span>
-                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                </div>
-                                            </div>
-                                        </article>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="atbs-block atbs-block--fullwidth atbs-posts-listing--grid-1-has-sidebar">
+                        <div class="atbs-block atbs-block--fullwidth atbs-posts-listing--grid-3-has-sidebar">
                             <div class="block-heading block-heading_style-1 block-heading-no-line">
                                 <h4 class="block-heading__title">
                                     Listing Posts
                                 </h4>
                             </div>
                             <div class="atbs-block__inner">
-                                <div class="posts-list flex-box flex-space-30 flex-box-3i posts-list-tablet-2i">
+                                <div class="posts-list flex-box flex-box-3i flex-space-30 posts-list-tablet-2i">
                                     <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
+                                        <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
+                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
                                                 </a>
                                             </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="./category.html" class="post__cat post__cat--bg post__cat-overlap">GADGETS</a>
+                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                </h3>
+                                                <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>by</span>
+                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                             </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
                                     <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
+                                        <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
+                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
                                                 </a>
                                             </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="./category.html" class="post__cat post__cat--bg post__cat-overlap">GADGETS</a>
+                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                </h3>
+                                                <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>by</span>
+                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                             </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
                                     <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
+                                        <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
+                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
                                                 </a>
                                             </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="./category.html" class="post__cat post__cat--bg post__cat-overlap">GADGETS</a>
+                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                </h3>
+                                                <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>by</span>
+                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                             </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
                                     <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
+                                        <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
+                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
                                                 </a>
                                             </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="./category.html" class="post__cat post__cat--bg post__cat-overlap">GADGETS</a>
+                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                </h3>
+                                                <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>by</span>
+                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                             </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
                                     <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
+                                        <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
+                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
                                                 </a>
                                             </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="./category.html" class="post__cat post__cat--bg post__cat-overlap">GADGETS</a>
+                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                </h3>
+                                                <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>by</span>
+                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                             </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
                                     <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
+                                        <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
                                                 <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
+                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
                                                 </a>
                                             </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="./category.html" class="post__cat post__cat--bg post__cat-overlap">GADGETS</a>
+                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
+                                                </h3>
+                                                <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
+                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>by</span>
+                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
                                                             </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
                                                 </div>
                                             </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
                                         </article>
                                     </div>
                                 </div>
@@ -1094,7 +1132,7 @@
                                 </div>
                                 <div class="author-box__text">
                                     <div class="author-name meta-font">
-                                        <a class="entry-author__name" rel="author" title="designUTD" href="./author.html">designUTD</a>
+                                        <a class="entry-author__name" rel="author" title="designUTD" href="./author.html">The yEAh Games Network</a>
                                     </div>
                                     <div class="author-bio">
                                         Welcome to my blog where I share my lifestyle tips
