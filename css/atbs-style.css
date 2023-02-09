@@ -7966,6 +7966,7 @@ time {
 }
 
 .navigation-bar .header-logo img {
+    max-height: 60px;
     padding: 15px 0;
 }
 
@@ -8852,7 +8853,7 @@ body.search-results {
 }
 
 .header-logo--mobile img {
-    max-height: ;
+    max-height: 50px;
     padding: 10px 0;
 }
 
