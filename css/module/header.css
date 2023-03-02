@@ -169,7 +169,6 @@
     font-size: 16px;
     font-weight: 500;
     color: var(--color-white-contrast-50);
-    text-transform: capitalize;
 }
 .navigation--main>li>a:before {
     display: none;

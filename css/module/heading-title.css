@@ -23,7 +23,6 @@
     width: 100%;
     position: relative;
     color: var(--color-white);
-    text-transform: capitalize;
     padding-bottom: 13px;
 }
 
