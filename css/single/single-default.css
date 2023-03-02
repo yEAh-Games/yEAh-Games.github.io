@@ -153,7 +153,7 @@ a.entry-cat-radius {
     line-height: 1.5;
     font-weight: 700;
     color: var(--color-white);
-    text-transform: capitalize;
+    
 }
 .author-box .author-bio {
     margin-top: 10px;
@@ -297,7 +297,7 @@ a.entry-cat-radius {
     color: var(--color-white-contrast-80);
     opacity: 0.5;
     position: static;
-    text-transform: uppercase;
+    
     text-decoration: none;
     margin-bottom: 12px;
     letter-spacing: 0.06em;
@@ -360,7 +360,7 @@ a.entry-cat-radius {
     margin: 0 auto 22px auto;
 }
 .socials-share-box .social-share-label {
-    text-transform: uppercase;
+    
     font-size: 14px;
     font-weight: 500;
     margin-bottom: 12px;
@@ -462,7 +462,7 @@ a.entry-cat-radius {
 }
 .single-box-translate .entry-author a.entry-author__name {
     font-size: 1.071428571428571rem;
-    text-transform: uppercase;
+    
 }
 .single-box-translate .entry-author time.time {
     font-size: 1rem;
@@ -475,7 +475,7 @@ a.entry-cat-radius {
     font-weight: 600;
     letter-spacing: 0.04em;
     color: var(--color-white);
-    text-transform: capitalize;
+    
     text-align: center;
     margin-bottom: 6px;
 }
@@ -485,7 +485,7 @@ a.entry-cat-radius {
     font-weight: 400;
     color: var(--color-white);
     opacity: 0.6;
-    text-transform: capitalize;
+    
     letter-spacing: 0;
     text-align: center;
 }
@@ -585,7 +585,7 @@ a.entry-cat-radius {
     width: 100%;
     position: relative;
     color: var(--color-white);
-    text-transform: capitalize;
+    
 }
 .comments-section .block-heading__title {
     font-weight: 700;
@@ -790,7 +790,7 @@ a.entry-cat-radius {
     margin-bottom: 25px;
     font-size: 1.2857rem; /*font system*/
     line-height: 1.5;
-    text-transform: capitalize;
+    
     display: block;
 }
 .atbs-reviews-section .reviews-content {
@@ -847,7 +847,7 @@ a.entry-cat-radius {
     font-size: 1rem; /*font system*/
     line-height: 1.5;
     font-weight: 700;
-    text-transform: uppercase;
+    
     margin-bottom: 5px;
 }
 .atbs-reviews-section .stars-list {
@@ -1105,7 +1105,7 @@ a.entry-cat-radius {
     padding: 10px 30px;
     background-color: var(--color-primary);
     color: var(--color-white);
-    text-transform: uppercase;
+    
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 5px;
@@ -1203,7 +1203,7 @@ a.entry-cat-radius {
     padding: 10px 30px;
     background-color: var(--color-primary);
     color: var(--color-white);
-    text-transform: uppercase;
+    
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 5px;
@@ -1226,7 +1226,7 @@ a.entry-cat-radius {
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: 0;
-    text-transform: uppercase;
+    
 }
 .atbs-reviews-section .user-rating-from .rating-submit i {
     display: inline-block;

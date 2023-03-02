@@ -134,7 +134,6 @@
     padding: 2.5px 30px;
 }
 .site-footer .navigation li a {
-    text-transform: capitalize;
     font-size: 16px; /*font system*/
     line-height: 1.5;
     font-weight: 500;
