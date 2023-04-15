@@ -1,0 +1,256 @@
+<!-- Sticky header -->
+<div id="atbs-sticky-header" class="sticky-header js-sticky-header">
+    <!-- Navigation bar -->
+    <nav class="navigation-bar navigation-bar--fullwidth hidden-xs hidden-sm">
+        <div class="navigation-bar__inner">
+            <div class="navigation-bar__section">
+                <a href="#atbs-offcanvas-primary"
+                    class="offcanvas-menu-toggle navigation-bar-btn js-atbs-offcanvas-toggle">
+                    <i class="mdicon mdicon-menu icon--2x"></i>
+                </a>
+                <div class="site-logo header-logo">
+                    <a href="https://yeahgames.net">
+                        <img src="https://cdn.yeahgames.net/img/branding/logos/default/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="navigation-wrapper navigation-bar__section js-priority-nav">
+            </div>
+
+        </div> <!-- .navigation-bar__inner -->
+    </nav><!-- Navigation-bar -->
+</div><!-- Sticky header -->
+<!-- Login modal -->
+<div class="modal fade login-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal-label">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content login-signup-form">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&#10005;</span></button>
+                <div class="modal-title" id="login-modal-label">
+                    <ul class="nav nav-tabs js-login-form-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#login-tab" aria-controls="login-tab" role="tab"
+                                data-toggle="tab">Log in</a></li>
+                        <li role="presentation"><a href="#signup-tab" aria-controls="signup-tab" role="tab"
+                                data-toggle="tab">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="login-tab">
+                        <div class="login-with-social">
+                            <p>Log in with social account</p>
+                            <ul class="social-list social-list--circle list-center ">
+                                <li><a href="#" class="facebook-theme-bg text-white"><i
+                                            class="mdicon mdicon-facebook"></i></a>
+                                </li>
+                                <li><a href="#" class="twitter-theme-bg text-white"><i
+                                            class="mdicon mdicon-twitter"></i></a>
+                                </li>
+                                <li><a href="#" class="googleplus-theme-bg text-white"><i
+                                            class="mdicon mdicon-google-plus"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="block-divider"><span>or</span></div>
+                        <form name="loginform" id="loginform" action="#" method="post">
+                            <p class="login-username">
+                                <label for="user_login">Username</label>
+                                <input type="text" name="log" id="user_login" class="input" value="" size="20">
+                            </p>
+                            <p class="login-password">
+                                <label for="user_pass">Password</label>
+                                <input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
+                            </p>
+                            <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme"
+                                        value="forever"> Remember
+                                    Me</label></p>
+                            <p class="login-submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-block btn-primary"
+                                    value="Log In">
+                                <input type="hidden" name="redirect_to" value="#">
+                            </p>
+                            <p class="login-lost-password">
+                                <a href="#" class="link link--darken">Lost your password?</a>
+                            </p>
+                        </form>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="signup-tab">
+                        <form name="registerform" id="registerform" action="#" method="post">
+                            <p class="register-username">
+                                <label for="user_register">Username</label>
+                                <input type="text" name="log" id="user_register" class="input" value="" size="20">
+                            </p>
+                            <p class="register-password">
+                                <label for="user_register_pass">Password</label>
+                                <input type="password" name="pwd" id="user_register_pass" class="input" value=""
+                                    size="20">
+                            </p>
+                            <p class="register-submit">
+                                <input type="submit" name="wp-submit" id="wp-submit-register"
+                                    class="btn btn-block btn-primary" value="Sign Up">
+                                <input type="hidden" name="redirect_to" value="#">
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Login modal -->
+<!-- Subscribe modal -->
+<div class="modal fade subscribe-modal" id="subscribe-modal" tabindex="-1" role="dialog"
+    aria-labelledby="subscribe-modal-label">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&#10005;</span></button>
+                <h4 class="modal-title" id="subscribe-modal-label">Subscribe</h4>
+            </div>
+            <div class="modal-body">
+                <div class="subscribe-form subscribe-form--horizontal text-center max-width-sm">
+                    <p class="typescale-1">
+                        Join our <b>868,537</b> subscribers and get access to the latest tools, freebies, product
+                        announcements and much more!
+                    </p>
+                    <div class="subscribe-form__fields">
+                        <p>
+                            <input type="email" name="EMAIL" placeholder="Your email address" required="">
+                            <input type="submit" value="Subscribe" class="btn btn-primary">
+                        </p>
+                    </div>
+                    <small>Don't worry, we don't spam</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- Subscribe modal -->
+<!-- Off-canvas menu -->
+<div id="atbs-offcanvas-primary" class="atbs-offcanvas js-atbs-offcanvas js-perfect-scrollbar">
+    <div class="atbs-offcanvas__title">
+
+        <h2 class="site-logo"><a href="//yeahgames.net"><img
+                    src="https://cdn.yeahgames.net/img/branding/logos/text/red.png" alt="logo"></a></h2>
+        <br>
+        <ul class="social-list list-horizontal">
+            <li><a href="//yeahgames.net/discord" target="_blank" title="yEAh Games' official Discord server."><i
+                        class="fa-brands fa-discord"></i></a></li>
+            <li><a href="mailto:admin@yeahgames.net" title="Email yEAh Games!" target="_blank"><i
+                        class="fa-solid fa-envelope"></i></a></li>
+            <li><a href="https://github.com/yEAh-Games" title="yEAh Games' official GitHub account." target="_blank"><i
+                        class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.youtube.com/@yeahgames" title="yEAh Games' official YouTube channel"
+                    target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.reddit.com/r/yEAhGames/" title="yEAh Games' official subreddit." target="_blank"><i
+                        class="fa-brands fa-reddit"></i></a></li>
+            <li><a href="https://mstdn.social/@yeah" rel="me"
+                    title="yEAh Games' official Mastodon account. Most news will be posted here." target="_blank"><i
+                        class="fa-brands fa-mastodon"></i></a></li>
+            <li><a href="https://twitter.com/yEAhGames_" title="yEAh Games' official Twitter account."
+                    target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="//instagram.com/_yEAhGames" title="yEAh Games' official Instagram account." target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+
+
+        </ul>
+        <a href="#atbs-offcanvas-primary" class="atbs-offcanvas-close js-atbs-offcanvas-close" aria-label="Close"><span
+                aria-hidden="true">&#10005;</span></a>
+    </div>
+
+    <div class="atbs-offcanvas__section atbs-offcanvas__section-navigation">
+        <ul id="menu-offcanvas-menu" class="navigation navigation--offcanvas">
+            <li class="menu-item">
+                <a href="//yeahgames.net"><i class="fa-solid fa-home"></i>&#160;&#160;Homepage</a>
+            </li>
+            <li class="menu-item">
+                <a href="//yeahgames.net/404"><i class="fa-solid fa-chain-broken"></i>&#160;&#160;404 page</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="//library.yeahgames.net"><i class="fa-solid fa-archive"></i>&#160;&#160;The Library</a>
+            </li>
+            <li class="menu-item-has-children">
+                <a href="//collections.yeahgames.net"><i class="fa-solid fa-folder-open"></i>&#160;&#160;Collections</a>
+                <ul class="sub-menu">
+                    <li><a href="//quotes.yeahgames.net"><i class="fa-solid fa-quote-left"></i>&#160;&#160;Quotes</a>
+                    </li>
+                    <li><a href="//news.yeahgames.net"><i class="fa-solid fa-newspaper"></i>&#160;&#160;News</a></li>
+                    <li><a href="//docs.yeahgames.net"><i class="fa-solid fa-question-circle"></i>&#160;&#160;Docs</a>
+                    </li>
+                    <li><a href="//games.yeahgames.net/archive"><i class="fa-solid fa-dice"></i>&#160;&#160;Games</a>
+                    </li>
+                    <li><a href="//yible.yeahgames.net"><i class="fa-solid fa-book"></i>&#160;&#160;Yible</a></li>
+                    <li><a href="//yank.yeahgames.net/archive"><i
+                                class="fa-solid fa-money-bill-1-wave"></i>&#160;&#160;Yank</a></li>
+                    <li><a href="//archive.legal.yeahgames.net"><i
+                                class="fa-solid fa-scale-balanced"></i>&#160;&#160;Legal</a></li>
+                </ul>
+            <li class="menu-item">
+                <a href="//chat.yeahgames.net"><i class="fa-solid fa-comments"></i>&#160;&#160;Chat</a>
+            </li>
+            <li class="menu-item">
+                <a href="//admin.yeahgames.net"><i class="fa-solid fa-lock"></i>&#160;&#160;Admin</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="//calendar.yeahgames.net"><i class="fa-solid fa-calendar-days"></i>&#160;&#160;Events</a>
+            </li>
+            <li class="menu-item">
+                <a href="//games.yeahgames.net"><i class="fa-solid fa-gamepad"></i>&#160;&#160;Games</a>
+            </li>
+            <li class="menu-item">
+                <a href="//yank.yeahgames.net"><i class="fa-solid fa-bank"></i>&#160;&#160;Yank</a>
+            </li>
+            <li class="menu-item">
+                <a href="//ychool.yeahgames.net"><i class="fa-solid fa-school"></i>&#160;&#160;Ychool</a>
+            </li>
+            <li class="menu-item">
+                <a href="//yourt.yeahgames.net"><i class="fa-solid fa-gavel"></i>&#160;&#160;Yourt</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="//shop.yeahgames.net"><i class="fa-solid fa-shopping-cart"></i>&#160;&#160;Shop</a>
+            </li>
+
+            <li class="menu-item">
+
+
+            <li class="menu-item-has-children">
+                <a href="//go.yeahgames.net/yeahroll"><i class="fa-solid fa-x"></i>&#160;&#160;Deprecated</a>
+                <ul class="sub-menu">
+                    <li><a href="//old.yeahgames.net"><i class="fa-brands fa-pied-piper-hat"></i>&#160;&#160;Old
+                            Homepage</a></li>
+                    <li><a href="//archives.old.yeahgames.net"><i class="fa-solid fa-archive"></i>&#160;&#160;Old
+                            Archives</a></li>
+                    <li><a href="//site.old.yeahgames.net"><i class="fa-solid fa-newspaper"></i>&#160;&#160;Old Weebly
+                            Site</a></li>
+                    <li><a href="//secret.old.yeahgames.net"><i class="fa-solid fa-user-secret"></i>&#160;&#160;Old
+                            Secret Website</a></li>
+                    <li><a href="//chat.old.yeahgames.net"><i class="fa-solid fa-comments"></i>&#160;&#160;Old
+                            Chatrooms</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="atbs-offcanvas__section visible-xs visible-sm">
+        <div class="text-center">
+        </div>
+    </div>
+</div><!-- Off-canvas menu -->
+<a href="#" class="atbs-go-top btn btn-default hidden-xs js-go-top-el"><i class="mdicon mdicon-arrow_upward"></i></a>
+</div><!-- .site-wrapper -->
+
+<a href="#" class="atbs-go-top btn btn-default hidden-xs js-go-top-el"><i class="mdicon mdicon-arrow_upward"></i></a>
+</div><!-- .site-wrapper -->
+
+<script src="https://cdn.yeahgames.net/js/lib/network/dark/jquery.js"></script>
+<script src="https://cdn.yeahgames.net/js/lib/network/dark/sidebar.js"></script>
+<script src="https://cdn.yeahgames.net/js/lib/network/dark/owl-carousel.min.js"></script>
+<script src="https://cdn.yeahgames.net/js/lib/network/dark/scripts.js"></script>
+</body>
+
+</html>

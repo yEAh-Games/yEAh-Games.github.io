@@ -1,1166 +1,1096 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <!-- Basic -->
-    <meta charset="UTF-8">
-    <title>The yEAh Games Network</title>
-    <meta name="keywords" content="yEAh Network homepage, yEAh Games, yEAh, Games, yEAh-Games, yEAh Network, yEAh Games Network, YG Network, yeahgames.net, yeahgames, yeahgames pro, yeahgames.pro, yeah games net, yeahgames net, yeahgamespro, yeahgamesnet, yeahgames.net, yeah games, yeahgames network, yeahgames net, yg, the yeah games network"/>
-    <meta name="description" content="The official homepage of the yEAh Games Network.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <!-- Favicon -->
+---
+---
 
+{% include head.html %}
+{% include top.html %}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.yeahgames.net/img/branding/logos/default/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.yeahgames.net/img/branding/logos/default/logo.png">
-    <link rel="manifest" href="./img/favicons/site.webmanifest">
-    <link rel="mask-icon" href="./img/favicons/safari-pinned-tab.svg" color="#ff4747">
-    <meta name="msapplication-TileColor" content="#ff4747">
-    <meta name="theme-color" content="#ffffff">
-    
-    
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Theme CSS -->
-    <link href="css/import-style.css" rel="stylesheet">
+        <div class="site-content">
+            <div class="flex-box">
+                <div class="atbs-block atbs-block--fullwidth atbs-section-module">
+                    <div class="atbs-block atbs-block--fullwidth atbs-featured-module-3">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<style>
-
-.topnav {
-  overflow: hidden;
-  background-color: #23272A;
-  z-index: 1000;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.active {
-  background-color: #ff4747;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: Arial black;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}    
-
-.network-nav{z-index: 99999}
-</style>
-</head>
-
-  
-<body class="home home-1 has-block-heading-line">
-
-
-
-<!-- .site-wrapper -->
-<div class="site-wrapper" >
-    <!-- Site header -->
-    <header class="site-header">
-        <!-- Mobile header -->
-        <div id="atbs-mobile-header" class="mobile-header visible-xs visible-sm">
-            <div class="mobile-header__inner mobile-header__inner--flex">
-                <div class="header-branding header-branding--mobile mobile-header__section text-left">
-                    <div class="header-logo header-logo--mobile flexbox__item text-left">
-                        <a href="//yeahgames.net">
-                            <img src="https://cdn.yeahgames.net/img/branding/logos/text/red.png" alt="logo">
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="mobile-header__section text-right inverse-text">
-                    <a href="#atbs-offcanvas-primary" class="offcanvas-menu-toggle mobile-header-btn js-atbs-offcanvas-toggle">
-                        <i class="mdicon mdicon-menu hidden-xs"></i>
-                        <i class="mdicon mdicon-menu visible-xs-inline-block"></i>
-                    </a>
-                </div>
-                
-            </div>
-        </div><!-- Mobile header -->
-
-        <div class="header-main hidden-xs hidden-sm">
-            <a href="#atbs-offcanvas-primary" class="offcanvas-menu-toggle navigation-bar-btn js-atbs-offcanvas-toggle btn-menu-bar-icon flex-box align-item-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="20.75" viewBox="0 0 27 20.75">
-                    <path id="Path_1521" data-name="Path 1521" d="M4,6H29M4,15.375H29M4,24.75H14.938" transform="translate(-3 -5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                </svg>
-            </a>
-
-            <div class="header-social header-social-vertical">
-                <ul class="social-list social-list--sm list-horizontal social-list--inverse">
-                    <li><a href="//yeahgames.net/discord" target="_blank" title="yEAh Games' official Discord server."><i class="fa-brands fa-discord"></i></a></li>
-                    <li><a href="mailto:admin@yeahgames.net" title="Email yEAh Games!" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-                    <li><a href="https://github.com/yEAh-Games" title="yEAh Games' official GitHub account." target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="https://www.youtube.com/@yeahgames" title="yEAh Games' official YouTube channel" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                    <li><a href="https://www.reddit.com/r/yEAhGames/" title="yEAh Games' official subreddit." target="_blank"><i class="fa-brands fa-reddit"></i></a></li>
-                    <li><a href="https://mstdn.social/@yeah" rel="me" title="yEAh Games' official Mastodon account. Most news will be posted here." target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
-                    <li><a href="https://twitter.com/yEAhGames_" title="yEAh Games' official Twitter account." target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="//instagram.com/_yEAhGames" title="yEAh Games' official Instagram account." target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://stackoverflow.com/users/20908085/yeahgames" title="yEAh Games' official StackOverflow account." target="_blank"><i class="fa-brands fa-stack-overflow"></i></a></li>
-                   
-
-
-                </ul>
-            </div>
-        </div>
-        <!-- Navigation bar -->
-        <nav class="navigation-bar hidden-xs hidden-sm js-sticky-header-holder">
-            <div class="navigation-bar__inner flexbox-wrap flexbox-center-y">
-                <div class="navigation-bar__section flex-box align-item-center">
-                    <div class="header-logo">
-                        <a href="//yeahgames.net">
-                            <img src="https://cdn.yeahgames.net/img/branding/logos/text/red.png" alt="File not found" width="70%">
-
-                        </a>
-                    </div>
-                </div>
-                
-                <div class="navigation-bar__section">
-                    <button type="submit" class="navigation-bar-search navigation-bar-btn js-search-dropdown-toggle"></button>
-                </div>
-            </div><!-- .navigation-bar__inner -->
-        </nav><!-- Navigation-bar -->
-    </header><!-- Site header -->
-    <div class="site-content">
-        <div class="flex-box">
-            <div class="atbs-block atbs-block--fullwidth atbs-section-module">
-                <div class="atbs-block atbs-block--fullwidth atbs-featured-module-3">
-
-                    <div class="atbs-block__inner">
-                        <div class="posts-list flex-box flex-space-30 flex-box-4i posts-list-tablet-2i">
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
-                                    <div class="post__thumb object-fit">
-                                        <a href="https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/">
-                                            <img src="https://i.ibb.co/w4CjWSf/image.png" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="//ads.yeahgames.net" class="post__cat post__cat--bg">ADVERTISEMENT</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/">Join yEAh Games' official Discord server</a>
-                                            </h3>
-                                            
-                                            <a class="hoverwhite1" href="https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/"><div class="post-tags hoverwhite1">
-                                                www.yeahgames.net/discord
-                                            </div></a>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>Ad by:</span>
-                                                            <a class="post-author__name" title="This advertisement was created and funded by @yeahgames." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="This is an advertisement. Advertisements are not necessarily endorsed by yEAh Games. To learn more about advertising with yEAh Games, visit ads.yeahgames.net."><i class="fa-solid fa-rectangle-ad"></i></time>                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
-                                    <div class="post__thumb object-fit">
-                                        <a href="https://news.yeahgames.net/news/introducing-yeahgames-net">
-                                            <img src="https://cdn.yeahgames.net/img/home/featured/thumb/networklogo.png" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="//news.yeahgames.net" class="post__cat post__cat-primary">COLLECTION: NEWS<a rel="me" href="https://mstdn.social/@yeah">⠀</a></a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="https://news.yeahgames.net/news/introducing-yeahgames-net">Introducing yeahgames.net!</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/category/news" class="post-tag" rel="tag">#News</a></li>
-                                                    <li><a href="https://library.yeahgames.net/category/announcements" class="post-tag" rel="tag">#Announcements</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                        
-                                                            <a class="post-author__name" title="This post was published by @nnillat on the News collection in the yEAh Games Archives." rel="author" href="https://members.yeahgames.net/@nnillat">@nnillat</a>                                                             
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2023-03-03T12:30:23+00:00" title="March 3rd, 2023 at  pm">March 3rd, 2023</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
-                                    <div class="post__thumb object-fit">
-                                        <a href="https://news.yeahgames.net/news/announcing-the-end-of-the-line-for-the-yeah-encyclopedia/">
-                                            <img src="https://news.yeahgames.net/archive/img/encyclopedias.jpg" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="//news.yeahgames.net" class="post__cat post__cat-primary">COLLECTION: NEWS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="https://news.yeahgames.net/news/announcing-the-end-of-the-line-for-the-yeah-encyclopedia/">Announcing the end of the line for the yEAh Encyclopedia</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/category/news" class="post-tag" rel="tag">#News</a></li>
-                                                    <li><a href="https://library.yeahgames.net/category/announcements" class="post-tag" rel="tag">#Announcements</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                        
-                                                            <a class="post-author__name" title="This post was published by @nnillat on the News collection in the yEAh Games Archives." rel="author" href="https://members.yeahgames.net/@nnillat">@nnillat</a>                                                             
-                                                        </div>
-                                                        
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2023-02-25T12:30:23+00:00" title="February 25, 2023 at 12:30 pm">Feburary 25, 2023</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme" data-dark-mode="true">
-                                    <div class="post__thumb object-fit">
-                                        <a href="https://docs.yeahgames.net/docs/advertising/about">
-                                            <img src="https://cdn.yeahgames.net/img/home/featured/thumb/megaphone.jpg" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="//docs.yeahgames.net" class="post__cat post__cat-primary">COLLECTION: DOCS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="https://docs.yeahgames.net/docs/advertising/about">Advertising with yEAh Games and its subsidaries</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/category/advertising" class="post-tag" rel="tag">#advertising</a></li>
-                                                    <li><a href="https://library.yeahgames.net/category/how-to" class="post-tag" rel="tag">#how-to</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is a documentation article in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames">@yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2023-03-01T12:30:23+00:00" title="March 1st, 2023 at 12:30 pm">March 1st, 2023</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-box">
-                    <div class="atbs-block atbs-block--fullwidth atbs-featured-module-4">
-                       
                         <div class="atbs-block__inner">
                             <div class="posts-list flex-box flex-space-30 flex-box-4i posts-list-tablet-2i">
                                 <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                    <article
+                                        class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme"
+                                        data-dark-mode="true">
                                         <div class="post__thumb object-fit">
-                                            <a href="https://gamesarchive.yeahgames.net/games/wa-wa-west-plus-plus/rules/v1">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/06/screenshot-2022-06-22-20.50.20.png" alt="File not found">
+                                            <a href="https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/">
+                                                <img src="https://i.ibb.co/w4CjWSf/image.png" alt="File not found">
                                             </a>
                                         </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//games.yeahgames.net/archive" class="post__cat post__cat--bg post__cat-overlap">GAMES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://gamesarchive.yeahgames.net/games/wa-wa-west-plus-plus/rules/v1">Rules for Wa Wa West ++ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/category/rules" class="post-tag" rel="tag">#rules</a></li>
-                                                    <li><a href="https://library.yeahgames.net/category/hand" class="post-tag" rel="tag">#hand</a></li>
-                                                    <li></li>
-                                                </ul>
+                                        <div class="post__text flex-box flex-direction-column inverse-text">
+                                            <div class="post__text-group">
+                                                <a href="//ads.yeahgames.net"
+                                                    class="post__cat post__cat--bg">ADVERTISEMENT</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
+                                                    <a href="https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/">Join
+                                                        yEAh Games' official Discord server</a>
+                                                </h3>
+
+                                                <a class="hoverwhite1"
+                                                    href="https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/">
+                                                    <div class="post-tags hoverwhite1">
+                                                        www.yeahgames.net/discord
+                                                    </div>
+                                                </a>
                                             </div>
-                                            
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="@yeahgames" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is a post archived with the Games collection in the yEAh Games Archives and has no set author." rel="author" href="https://members.yeahgames.net/@yeahgames">@yeahgames</a> 
+                                            <div class="post__text-group flex-item-auto-bottom">
+                                                <div
+                                                    class="post__meta time-style-1 flex-box justify-content-space align-item-center">
+                                                    <div class="post-author post-author_style-6">
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>Ad by:</span>
+                                                                <a class="post-author__name"
+                                                                    title="This advertisement was created and funded by @yeahgames."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
                                                         </div>
                                                     </div>
+
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00"
+                                                        title="This is an advertisement. Advertisements are not necessarily endorsed by yEAh Games. To learn more about advertising with yEAh Games, visit ads.yeahgames.net."><i
+                                                            class="fa-solid fa-rectangle-ad"></i></time>
                                                 </div>
-                                                <time class="time published" datetime="2022-06-22T08:45:23+00:00" title="June 22, 2022 at 8:45 am">June 22, 2022</time>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
                                 <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                    <article
+                                        class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme"
+                                        data-dark-mode="true">
                                         <div class="post__thumb object-fit">
-                                            <a href="//login.yeahgames.net/token/kP8jGWwSxbenZH5aJYaPr6tvcSFp8Y673IPtvYqOEJaDQ0gfwwZsNOUXXbwNdvh3Hh6AFptTQ0u7qY0lpPy4sgbJudnARg0YTS9Shzhg3KRIemlGLruvIuR1k18huirqIWSlxVuo4NAP">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/07/image-31.png?w=507" alt="File not found">
+                                            <a href="https://news.yeahgames.net/news/introducing-yeahgames-net">
+                                                <img src="https://cdn.yeahgames.net/img/home/featured/thumb/networklogo.png"
+                                                    alt="File not found">
                                             </a>
                                         </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="//login.yeahgames.net/token/kP8jGWwSxbenZH5aJYaPr6tvcSFp8Y673IPtvYqOEJaDQ0gfwwZsNOUXXbwNdvh3Hh6AFptTQ0u7qY0lpPy4sgbJudnARg0YTS9Shzhg3KRIemlGLruvIuR1k18huirqIWSlxVuo4NAP">Featured QOTD for 01/05/2022 (2/2)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes/" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://go.yeahgames.net/yeahroll" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
+                                        <div class="post__text flex-box flex-direction-column inverse-text">
+                                            <div class="post__text-group">
+                                                <a href="//news.yeahgames.net"
+                                                    class="post__cat post__cat-primary">COLLECTION: NEWS<a rel="me"
+                                                        href="https://mstdn.social/@yeah">⠀</a></a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
+                                                    <a href="https://news.yeahgames.net/news/introducing-yeahgames-net">Introducing
+                                                        yeahgames.net!</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/category/news"
+                                                                class="post-tag" rel="tag">#News</a></li>
+                                                        <li><a href="https://library.yeahgames.net/category/announcements"
+                                                                class="post-tag" rel="tag">#Announcements</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="yEAh Games" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
+                                            <div class="post__text-group flex-item-auto-bottom">
+                                                <div
+                                                    class="post__meta time-style-1 flex-box justify-content-space align-item-center">
+                                                    <div class="post-author post-author_style-6">
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+
+                                                                <a class="post-author__name"
+                                                                    title="This post was published by @nnillat on the News collection in the yEAh Games Archives."
+                                                                    rel="author"
+                                                                    href="https://members.yeahgames.net/@nnillat">@nnillat</a>
+                                                            </div>
+
                                                         </div>
                                                     </div>
+                                                    <time class="time published" datetime="2023-03-03T12:30:23+00:00"
+                                                        title="March 3rd, 2023 at  pm">March 3rd, 2023</time>
                                                 </div>
-                                                <time class="time published" datetime="2o22-04-01T08:45:23+00:00" title="May 1st, 2022 at 6:09 pm">May 1st, 2022</time>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="list-item">
+                                    <article
+                                        class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme"
+                                        data-dark-mode="true">
+                                        <div class="post__thumb object-fit">
+                                            <a
+                                                href="https://news.yeahgames.net/news/announcing-the-end-of-the-line-for-the-yeah-encyclopedia/">
+                                                <img src="https://news.yeahgames.net/archive/img/encyclopedias.jpg"
+                                                    alt="File not found">
+                                            </a>
+                                        </div>
+                                        <div class="post__text flex-box flex-direction-column inverse-text">
+                                            <div class="post__text-group">
+                                                <a href="//news.yeahgames.net"
+                                                    class="post__cat post__cat-primary">COLLECTION: NEWS</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
+                                                    <a
+                                                        href="https://news.yeahgames.net/news/announcing-the-end-of-the-line-for-the-yeah-encyclopedia/">Announcing
+                                                        the end of the line for the yEAh Encyclopedia</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/category/news"
+                                                                class="post-tag" rel="tag">#News</a></li>
+                                                        <li><a href="https://library.yeahgames.net/category/announcements"
+                                                                class="post-tag" rel="tag">#Announcements</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="post__text-group flex-item-auto-bottom">
+                                                <div
+                                                    class="post__meta time-style-1 flex-box justify-content-space align-item-center">
+                                                    <div class="post-author post-author_style-6">
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+
+                                                                <a class="post-author__name"
+                                                                    title="This post was published by @nnillat on the News collection in the yEAh Games Archives."
+                                                                    rel="author"
+                                                                    href="https://members.yeahgames.net/@nnillat">@nnillat</a>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2023-02-25T12:30:23+00:00"
+                                                        title="February 25, 2023 at 12:30 pm">Feburary 25, 2023</time>
+                                                </div>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
                                 <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                    <article
+                                        class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme"
+                                        data-dark-mode="true">
                                         <div class="post__thumb object-fit">
-                                            <a href="https://artifacts.yeahgames.net/artifacts/view/d/0001">
-                                                <img src="https://archive2.yeahgames.net/c/artifacts/d/0001/png/1.png" alt="File not found">
+                                            <a href="https://docs.yeahgames.net/docs/advertising/about">
+                                                <img src="https://cdn.yeahgames.net/img/home/featured/thumb/megaphone.jpg"
+                                                    alt="File not found">
                                             </a>
                                         </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//artifacts.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">ARTIFACTS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://artifacts.yeahgames.net/artifacts/view/d/0001">«Never Gonna Give YeeBot Up»</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/digital/" class="post-tag" rel="tag">#digital</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/yeebot/" class="post-tag" rel="tag">#yeebot</a></li>
-                                                </ul>
+                                        <div class="post__text flex-box flex-direction-column inverse-text">
+                                            <div class="post__text-group">
+                                                <a href="//docs.yeahgames.net"
+                                                    class="post__cat post__cat-primary">COLLECTION: DOCS</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
+                                                    <a href="https://docs.yeahgames.net/docs/advertising/about">Advertising
+                                                        with yEAh Games and its subsidaries</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/category/advertising"
+                                                                class="post-tag" rel="tag">#advertising</a></li>
+                                                        <li><a href="https://library.yeahgames.net/category/how-to"
+                                                                class="post-tag" rel="tag">#how-to</a></li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="@yeahgames" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an artifact in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames">@yeahgames</a>
+                                            <div class="post__text-group flex-item-auto-bottom">
+                                                <div
+                                                    class="post__meta time-style-1 flex-box justify-content-space align-item-center">
+                                                    <div class="post-author post-author_style-6">
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is a documentation article in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">@yeahgames</a>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    
+                                                    <time class="time published" datetime="2023-03-01T12:30:23+00:00"
+                                                        title="March 1st, 2023 at 12:30 pm">March 1st, 2023</time>
                                                 </div>
-                                                <time class="time published" datetime="2022-10-26T06:09:42+00:00" title="October 26th, 2022 at 6:09 am">October 26th, 2022</time>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://login.yeahgames.net/token/prXJDHoegmxGbOnC7M09Wy2vtkxDJTOcmLp6I2s0LdSvj0Of0HihWfjDXeLGgxff2zr5HuWcNnjvdGuGXibDTFCirQxapMEHDqn5vW8PuQL7Hgm6NqqyIEbONrZLhJnmFxLFqlnAeel4">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/07/image-26.png?w=930&h=450&crop=1" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://login.yeahgames.net/token/prXJDHoegmxGbOnC7M09Wy2vtkxDJTOcmLp6I2s0LdSvj0Of0HihWfjDXeLGgxff2zr5HuWcNnjvdGuGXibDTFCirQxapMEHDqn5vW8PuQL7Hgm6NqqyIEbONrZLhJnmFxLFqlnAeel4">Featured QOTD for 29/04/2022 (1/3)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/qotd" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="@yeahgames" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2022-04-29T08:45:23+00:00" title="April 29th, 2022 at 12:30 pm">April 29, 2022</time>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://login.yeahgames.net/token/9mTNjr7Gcy2UlOaBdQ3CEQiy2suaSCtF8N1duQNmTy8LEtlJwwSE1UHxzHdcIfP18PS5oN2XjgQjLDE83RuUzFAMwg9VNQHdM431v6cc4j1P5EomqnIgtcw8BbH1rcjkhbnbx2Mqc1wV">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/05/image-4.png?w=930&h=450&crop=1" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://login.yeahgames.net/token/9mTNjr7Gcy2UlOaBdQ3CEQiy2suaSCtF8N1duQNmTy8LEtlJwwSE1UHxzHdcIfP18PS5oN2XjgQjLDE83RuUzFAMwg9VNQHdM431v6cc4j1P5EomqnIgtcw8BbH1rcjkhbnbx2Mqc1wV">Featured QOTD for 20/04/2022 (2/3)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/qotd" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
-                                            </div>
-                                        
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="@yeahgames" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2022-04-20T08:45:23+00:00" title="April 20, 2022 at 6:09 am">April 20, 2022</time>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://ads.yeahgames.net/ad/click/home/xCNUnk3VY0SxzLP/">
-                                                <img src="https://cdn.yeahgames.net/img/home/featured/thumb/yeebothumb.webp" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//ads.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">ADVERTISEMENT</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://ads.yeahgames.net/ad/click/home/xCNUnk3VY0SxzLP/">YeeBot: The only Discord bot you'll ever need!</a>
-                                            </h3>
-                                            <a class="hoverwhite1" href="https://ads.yeahgames.net/ad/click/home/xCNUnk3VY0SxzLP/"><div class="post-tags hoverwhite1"></div>
-                                                www.discord.com/oauth2
-                                            </a>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yee" title="@yee" rel="author">
-                                                        <img alt="@yee" src="https://cdn.yeahgames.net/img/members/profile/bg_white/@yee.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>Ad by:</span>
-                                                            <a class="post-author__name" title="This advertisement was created and funded by @yee." rel="author" href="//members.yeahgames.net/@yee">@yee</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="This is an advertisement. Advertisements are not necessarily endorsed by yEAh Games. To learn more about advertising with yEAh Games, visit ads.yeahgames.net."><i class="fa-solid fa-rectangle-ad"></i></time>  
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://login.yeahgames.net/token/NAIZoBqB3i5xheFkkxye79DBtKSSYmdFMxQaW1lKgV3XUkoh50tKYcVhNii2sMXjFQ4c33TZ06E6YOBrNU9EepLRhr7urOUcNzLXzYRmzc1QwSr1bXQBLYlmSNE865zQUuTX9eYIXQpt">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/07/image-40.png?w=509" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://login.yeahgames.net/token/NAIZoBqB3i5xheFkkxye79DBtKSSYmdFMxQaW1lKgV3XUkoh50tKYcVhNii2sMXjFQ4c33TZ06E6YOBrNU9EepLRhr7urOUcNzLXzYRmzc1QwSr1bXQBLYlmSNE865zQUuTX9eYIXQpt">Featured QOTD for 04/05/2022 (1/3)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes/" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/qotd/" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="yEAh Games" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2o22-05-04T08:45:23+00:00" title="May 4th, 2022 at 6:09 pm">May 4th, 2022</time>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://gamesarchive.yeahgames.net/games/yic-yac-yoe/rules/v1">
-                                                <img src="https://gamesarchive.yeahgames.net/archive/img/thumb/yic-yac-yoe-rules_placeholder.jpg" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//games.yeahgames.net/archive" class="post__cat post__cat--bg post__cat-overlap">GAMES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://gamesarchive.yeahgames.net/games/yic-yac-yoe/rules/v1">Rules for Yic Yac Yoe ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/category/rules" class="post-tag" rel="tag">#rules</a></li>
-                                                    <li><a href="https://library.yeahgames.net/category/board" class="post-tag" rel="tag">#board</a></li>
-                                                    <li></li>
-                                                </ul>
-                                            </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="@yeahgames" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is a post archived with the Games collection in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2022-03-12T08:45:23+00:00" title="March 12, 2022 at 8:45 am">March 12, 2022</time>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://login.yeahgames.net/token/ihR3nD19m2nTD0OEb9dwPn42Ee0vMgcZkA46bm7FKUKBNCT8GSnHCeYDuVNlJEul7w9Z31Eym1mHQicEk0oKGbzT9nDFmeTlKB3CO5xTiXlnSWrL3ZcZff5Z9CeojFA15nYzj16LgpOq">
-                                                <img src="https://cdn.yeahgames.net/img/home/featured/thumb/qotd-09-04-22-1.png" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://login.yeahgames.net/token/ihR3nD19m2nTD0OEb9dwPn42Ee0vMgcZkA46bm7FKUKBNCT8GSnHCeYDuVNlJEul7w9Z31Eym1mHQicEk0oKGbzT9nDFmeTlKB3CO5xTiXlnSWrL3ZcZff5Z9CeojFA15nYzj16LgpOq">Featured QOTD for 09/04/2022 (1/2)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes/" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/qotd/" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="yEAh Games" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2022-04-09T08:45:23+00:00" title="April 9, 2022 at 8:45 am">April 9, 2022</time>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://login.yeahgames.net/token/9gAENmdF7ftMMdWxhTiRpDLO7mf438ByVYM47EHDh2U37XSUCLRWXqCUK8OynZZTXPObhqxrMIvg6N7mPG5k7xngQO03Py9jE373YGft6fJVWNGZkHCbvOEo1G1zS4SGPPIOxbqog5QN">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/04/image-44.png?w=930&h=450&crop=1" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://login.yeahgames.net/token/9gAENmdF7ftMMdWxhTiRpDLO7mf438ByVYM47EHDh2U37XSUCLRWXqCUK8OynZZTXPObhqxrMIvg6N7mPG5k7xngQO03Py9jE373YGft6fJVWNGZkHCbvOEo1G1zS4SGPPIOxbqog5QN">Featured QOTD for 05/04/2022 (1/3)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes/" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/qotd/" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="yEAh Games" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2022-04-05T08:45:23+00:00" title="April 5, 2022 at 8:45 am">April 5, 2022</time>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://ads.yeahgames.net/ad/click/home/XwqvT36WQ3NPcVF">
-                                                <img src="https://cdn.yeahgames.net/img/home/featured/thumb/amogusad.png" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//ads.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">ADVERTISEMENT</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://ads.yeahgames.net/ad/click/home/XwqvT36WQ3NPcVF/">Unleash Your Inner Impostor with Free Among Us Skins!!</a>
-                                            </h3>
-                                            <a class="hoverwhite1" href="https://ads.yeahgames.net/ad/click/home/XwqvT36WQ3NPcVF/"><div class="post-tags hoverwhite1"></div>
-                                                freeskins1.wordpress.com
-                                            </a>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@guyman147" title="@guyman147" rel="author">
-                                                        <img alt="@guyman147" src="https://cdn.yeahgames.net/img/members/profile/bg_white/@guyman147.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>Ad by:</span>
-                                                            <a class="post-author__name" title="This advertisement was created and funded by @guyman147." rel="author" href="//members.yeahgames.net/@guyman147">@guyman147</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="This is an advertisement. Advertisements are not necessarily endorsed by yEAh Games. To learn more about advertising with yEAh Games, visit ads.yeahgames.net."><i class="fa-solid fa-rectangle-ad"></i></time>  
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div>
-                                <div class="list-item">
-                                
-                                    <article class="post post--vertical post--vertical-card-overlap post--hover-theme">
-                                        <div class="post__thumb object-fit">
-                                            <a href="https://login.yeahgames.net/token/FXbUELVkcQVkBfTekU4cWuPdEGola16CGjCesWkf6iLqUX25LLHnRVlMmH9KOBQanSGSMHgt25Coe1vSaAZ2JkYHSnoTjGye4rlJU0PFIbaVutQK4iJ9jOxqGEgE8xhWcghACTI7sUHN">
-                                                <img src="https://yeaharchives.files.wordpress.com/2022/07/image-12.png?w=506" alt="File not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text author-avatar-right">
-                                            <a href="//quotes.yeahgames.net" class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                <a href="https://login.yeahgames.net/token/FXbUELVkcQVkBfTekU4cWuPdEGola16CGjCesWkf6iLqUX25LLHnRVlMmH9KOBQanSGSMHgt25Coe1vSaAZ2JkYHSnoTjGye4rlJU0PFIbaVutQK4iJ9jOxqGEgE8xhWcghACTI7sUHN">Featured QOTD for 23/04/2022 (3/3)</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="https://library.yeahgames.net/categories/quotes/" class="post-tag" rel="tag">#quotes</a></li>
-                                                    <li><a href="https://library.yeahgames.net/categories/qotd/" class="post-tag" rel="tag">#qotd</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="//members.yeahgames.net/@yeahgames" title="@yeahgames" rel="author">
-                                                        <img alt="yEAh Games" src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>By</span>
-                                                            <a class="post-author__name" title="This is an archived quote in the yEAh Games Archives and has no set author." rel="author" href="//members.yeahgames.net/@yeahgames"> @yeahgames</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2022-04-23T08:45:23+00:00" title="April 23, 2022 at 8:45 am">April 23, 2022</time>
-                                        </div>
-                                    </article>
-                                </div>
-                                
+
+
                             </div>
                         </div>
                     </div>
-                   
-                </div>
-            </div>
-            <!-- -->
-            <div class="atbs-section-sidebar js-sticky-sidebar">
-                <div class="widget atbs-atbs-widget atbs-widget-author-box">
-                    <div class="widget-wrap">
-                        <div class="widget__inner">
-                            <div class="author-box author-box-vertical">
-                                <div class="author-box__image">
-                                    <div class="author-avatar">
-                                        <img alt="designUTD" src="https://cdn.yeahgames.net/img/branding/logos/default/logo.png" class="avatar avatar-150 photo avatar photo" height="150" width="150" loading="lazy" href="//yeahgames.net">
+                    <div class="flex-box">
+                        <div class="atbs-block atbs-block--fullwidth atbs-featured-module-4">
+
+                            <div class="atbs-block__inner">
+                                <div class="posts-list flex-box flex-space-30 flex-box-4i posts-list-tablet-2i">
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://gamesarchive.yeahgames.net/games/wa-wa-west-plus-plus/rules/v1">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/06/screenshot-2022-06-22-20.50.20.png"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//games.yeahgames.net/archive"
+                                                    class="post__cat post__cat--bg post__cat-overlap">GAMES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://gamesarchive.yeahgames.net/games/wa-wa-west-plus-plus/rules/v1">Rules
+                                                        for Wa Wa West ++ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/category/rules"
+                                                                class="post-tag" rel="tag">#rules</a></li>
+                                                        <li><a href="https://library.yeahgames.net/category/hand"
+                                                                class="post-tag" rel="tag">#hand</a></li>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="@yeahgames"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is a post archived with the Games collection in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="https://members.yeahgames.net/@yeahgames">@yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-06-22T08:45:23+00:00"
+                                                        title="June 22, 2022 at 8:45 am">June 22, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
                                     </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="//login.yeahgames.net/token/kP8jGWwSxbenZH5aJYaPr6tvcSFp8Y673IPtvYqOEJaDQ0gfwwZsNOUXXbwNdvh3Hh6AFptTQ0u7qY0lpPy4sgbJudnARg0YTS9Shzhg3KRIemlGLruvIuR1k18huirqIWSlxVuo4NAP">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/07/image-31.png?w=507"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="//login.yeahgames.net/token/kP8jGWwSxbenZH5aJYaPr6tvcSFp8Y673IPtvYqOEJaDQ0gfwwZsNOUXXbwNdvh3Hh6AFptTQ0u7qY0lpPy4sgbJudnARg0YTS9Shzhg3KRIemlGLruvIuR1k18huirqIWSlxVuo4NAP">Featured
+                                                        QOTD for 01/05/2022 (2/2)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes/"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://go.yeahgames.net/yeahroll" class="post-tag"
+                                                                rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="yEAh Games"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2o22-04-01T08:45:23+00:00"
+                                                        title="May 1st, 2022 at 6:09 pm">May 1st, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a href="https://artifacts.yeahgames.net/artifacts/view/d/0001">
+                                                    <img src="https://archive2.yeahgames.net/c/artifacts/d/0001/png/1.png"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//artifacts.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">ARTIFACTS</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="https://artifacts.yeahgames.net/artifacts/view/d/0001">«Never
+                                                        Gonna Give YeeBot Up»</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/digital/"
+                                                                class="post-tag" rel="tag">#digital</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/yeebot/"
+                                                                class="post-tag" rel="tag">#yeebot</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="@yeahgames"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an artifact in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">@yeahgames</a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <time class="time published" datetime="2022-10-26T06:09:42+00:00"
+                                                        title="October 26th, 2022 at 6:09 am">October 26th, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://login.yeahgames.net/token/prXJDHoegmxGbOnC7M09Wy2vtkxDJTOcmLp6I2s0LdSvj0Of0HihWfjDXeLGgxff2zr5HuWcNnjvdGuGXibDTFCirQxapMEHDqn5vW8PuQL7Hgm6NqqyIEbONrZLhJnmFxLFqlnAeel4">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/07/image-26.png?w=930&h=450&crop=1"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://login.yeahgames.net/token/prXJDHoegmxGbOnC7M09Wy2vtkxDJTOcmLp6I2s0LdSvj0Of0HihWfjDXeLGgxff2zr5HuWcNnjvdGuGXibDTFCirQxapMEHDqn5vW8PuQL7Hgm6NqqyIEbONrZLhJnmFxLFqlnAeel4">Featured
+                                                        QOTD for 29/04/2022 (1/3)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/qotd"
+                                                                class="post-tag" rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="@yeahgames"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-04-29T08:45:23+00:00"
+                                                        title="April 29th, 2022 at 12:30 pm">April 29, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://login.yeahgames.net/token/9mTNjr7Gcy2UlOaBdQ3CEQiy2suaSCtF8N1duQNmTy8LEtlJwwSE1UHxzHdcIfP18PS5oN2XjgQjLDE83RuUzFAMwg9VNQHdM431v6cc4j1P5EomqnIgtcw8BbH1rcjkhbnbx2Mqc1wV">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/05/image-4.png?w=930&h=450&crop=1"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://login.yeahgames.net/token/9mTNjr7Gcy2UlOaBdQ3CEQiy2suaSCtF8N1duQNmTy8LEtlJwwSE1UHxzHdcIfP18PS5oN2XjgQjLDE83RuUzFAMwg9VNQHdM431v6cc4j1P5EomqnIgtcw8BbH1rcjkhbnbx2Mqc1wV">Featured
+                                                        QOTD for 20/04/2022 (2/3)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/qotd"
+                                                                class="post-tag" rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="@yeahgames"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-04-20T08:45:23+00:00"
+                                                        title="April 20, 2022 at 6:09 am">April 20, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a href="https://ads.yeahgames.net/ad/click/home/xCNUnk3VY0SxzLP/">
+                                                    <img src="https://cdn.yeahgames.net/img/home/featured/thumb/yeebothumb.webp"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//ads.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">ADVERTISEMENT</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="https://ads.yeahgames.net/ad/click/home/xCNUnk3VY0SxzLP/">YeeBot:
+                                                        The only Discord bot you'll ever need!</a>
+                                                </h3>
+                                                <a class="hoverwhite1"
+                                                    href="https://ads.yeahgames.net/ad/click/home/xCNUnk3VY0SxzLP/">
+                                                    <div class="post-tags hoverwhite1"></div>
+                                                    www.discord.com/oauth2
+                                                </a>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yee" title="@yee"
+                                                            rel="author">
+                                                            <img alt="@yee"
+                                                                src="https://cdn.yeahgames.net/img/members/profile/bg_white/@yee.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>Ad by:</span>
+                                                                <a class="post-author__name"
+                                                                    title="This advertisement was created and funded by @yee."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yee">@yee</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00"
+                                                        title="This is an advertisement. Advertisements are not necessarily endorsed by yEAh Games. To learn more about advertising with yEAh Games, visit ads.yeahgames.net."><i
+                                                            class="fa-solid fa-rectangle-ad"></i></time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://login.yeahgames.net/token/NAIZoBqB3i5xheFkkxye79DBtKSSYmdFMxQaW1lKgV3XUkoh50tKYcVhNii2sMXjFQ4c33TZ06E6YOBrNU9EepLRhr7urOUcNzLXzYRmzc1QwSr1bXQBLYlmSNE865zQUuTX9eYIXQpt">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/07/image-40.png?w=509"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://login.yeahgames.net/token/NAIZoBqB3i5xheFkkxye79DBtKSSYmdFMxQaW1lKgV3XUkoh50tKYcVhNii2sMXjFQ4c33TZ06E6YOBrNU9EepLRhr7urOUcNzLXzYRmzc1QwSr1bXQBLYlmSNE865zQUuTX9eYIXQpt">Featured
+                                                        QOTD for 04/05/2022 (1/3)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes/"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/qotd/"
+                                                                class="post-tag" rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="yEAh Games"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2o22-05-04T08:45:23+00:00"
+                                                        title="May 4th, 2022 at 6:09 pm">May 4th, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a href="https://gamesarchive.yeahgames.net/games/yic-yac-yoe/rules/v1">
+                                                    <img src="https://gamesarchive.yeahgames.net/archive/img/thumb/yic-yac-yoe-rules_placeholder.jpg"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//games.yeahgames.net/archive"
+                                                    class="post__cat post__cat--bg post__cat-overlap">GAMES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://gamesarchive.yeahgames.net/games/yic-yac-yoe/rules/v1">Rules
+                                                        for Yic Yac Yoe ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/category/rules"
+                                                                class="post-tag" rel="tag">#rules</a></li>
+                                                        <li><a href="https://library.yeahgames.net/category/board"
+                                                                class="post-tag" rel="tag">#board</a></li>
+                                                        <li></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="@yeahgames"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is a post archived with the Games collection in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-03-12T08:45:23+00:00"
+                                                        title="March 12, 2022 at 8:45 am">March 12, 2022</time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://login.yeahgames.net/token/ihR3nD19m2nTD0OEb9dwPn42Ee0vMgcZkA46bm7FKUKBNCT8GSnHCeYDuVNlJEul7w9Z31Eym1mHQicEk0oKGbzT9nDFmeTlKB3CO5xTiXlnSWrL3ZcZff5Z9CeojFA15nYzj16LgpOq">
+                                                    <img src="https://cdn.yeahgames.net/img/home/featured/thumb/qotd-09-04-22-1.png"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://login.yeahgames.net/token/ihR3nD19m2nTD0OEb9dwPn42Ee0vMgcZkA46bm7FKUKBNCT8GSnHCeYDuVNlJEul7w9Z31Eym1mHQicEk0oKGbzT9nDFmeTlKB3CO5xTiXlnSWrL3ZcZff5Z9CeojFA15nYzj16LgpOq">Featured
+                                                        QOTD for 09/04/2022 (1/2)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes/"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/qotd/"
+                                                                class="post-tag" rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="yEAh Games"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-04-09T08:45:23+00:00"
+                                                        title="April 9, 2022 at 8:45 am">April 9, 2022</time>
+                                                </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://login.yeahgames.net/token/9gAENmdF7ftMMdWxhTiRpDLO7mf438ByVYM47EHDh2U37XSUCLRWXqCUK8OynZZTXPObhqxrMIvg6N7mPG5k7xngQO03Py9jE373YGft6fJVWNGZkHCbvOEo1G1zS4SGPPIOxbqog5QN">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/04/image-44.png?w=930&h=450&crop=1"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://login.yeahgames.net/token/9gAENmdF7ftMMdWxhTiRpDLO7mf438ByVYM47EHDh2U37XSUCLRWXqCUK8OynZZTXPObhqxrMIvg6N7mPG5k7xngQO03Py9jE373YGft6fJVWNGZkHCbvOEo1G1zS4SGPPIOxbqog5QN">Featured
+                                                        QOTD for 05/04/2022 (1/3)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes/"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/qotd/"
+                                                                class="post-tag" rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="yEAh Games"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-04-05T08:45:23+00:00"
+                                                        title="April 5, 2022 at 8:45 am">April 5, 2022</time>
+                                                </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a href="https://ads.yeahgames.net/ad/click/home/XwqvT36WQ3NPcVF">
+                                                    <img src="https://cdn.yeahgames.net/img/home/featured/thumb/amogusad.png"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//ads.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">ADVERTISEMENT</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a href="https://ads.yeahgames.net/ad/click/home/XwqvT36WQ3NPcVF/">Unleash
+                                                        Your Inner Impostor with Free Among Us Skins!!</a>
+                                                </h3>
+                                                <a class="hoverwhite1"
+                                                    href="https://ads.yeahgames.net/ad/click/home/XwqvT36WQ3NPcVF/">
+                                                    <div class="post-tags hoverwhite1"></div>
+                                                    freeskins1.wordpress.com
+                                                </a>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@guyman147" title="@guyman147"
+                                                            rel="author">
+                                                            <img alt="@guyman147"
+                                                                src="https://cdn.yeahgames.net/img/members/profile/bg_white/@guyman147.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>Ad by:</span>
+                                                                <a class="post-author__name"
+                                                                    title="This advertisement was created and funded by @guyman147."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@guyman147">@guyman147</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00"
+                                                        title="This is an advertisement. Advertisements are not necessarily endorsed by yEAh Games. To learn more about advertising with yEAh Games, visit ads.yeahgames.net."><i
+                                                            class="fa-solid fa-rectangle-ad"></i></time>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="list-item">
+
+                                        <article
+                                            class="post post--vertical post--vertical-card-overlap post--hover-theme">
+                                            <div class="post__thumb object-fit">
+                                                <a
+                                                    href="https://login.yeahgames.net/token/FXbUELVkcQVkBfTekU4cWuPdEGola16CGjCesWkf6iLqUX25LLHnRVlMmH9KOBQanSGSMHgt25Coe1vSaAZ2JkYHSnoTjGye4rlJU0PFIbaVutQK4iJ9jOxqGEgE8xhWcghACTI7sUHN">
+                                                    <img src="https://yeaharchives.files.wordpress.com/2022/07/image-12.png?w=506"
+                                                        alt="File not found">
+                                                </a>
+                                            </div>
+                                            <div class="post__text inverse-text author-avatar-right">
+                                                <a href="//quotes.yeahgames.net"
+                                                    class="post__cat post__cat--bg post__cat-overlap">QUOTES</a>
+                                                <h3
+                                                    class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
+                                                    <a
+                                                        href="https://login.yeahgames.net/token/FXbUELVkcQVkBfTekU4cWuPdEGola16CGjCesWkf6iLqUX25LLHnRVlMmH9KOBQanSGSMHgt25Coe1vSaAZ2JkYHSnoTjGye4rlJU0PFIbaVutQK4iJ9jOxqGEgE8xhWcghACTI7sUHN">Featured
+                                                        QOTD for 23/04/2022 (3/3)</a>
+                                                </h3>
+                                                <div class="post-tags">
+                                                    <ul class="list-unstyled list-horizontal">
+                                                        <li><a href="https://library.yeahgames.net/categories/quotes/"
+                                                                class="post-tag" rel="tag">#quotes</a></li>
+                                                        <li><a href="https://library.yeahgames.net/categories/qotd/"
+                                                                class="post-tag" rel="tag">#qotd</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div
+                                                    class="post__meta border-avatar flex-box align-item-center justify-content-space">
+                                                    <div class="post-author post-author_style-7">
+                                                        <a class="post-author__avatar"
+                                                            href="//members.yeahgames.net/@yeahgames" title="@yeahgames"
+                                                            rel="author">
+                                                            <img alt="yEAh Games"
+                                                                src="//cdn.yeahgames.net/img/members/profile/default/@yeahgames.png">
+                                                        </a>
+                                                        <div class="post-author__text">
+                                                            <div class="author_name--wrap">
+                                                                <span>By</span>
+                                                                <a class="post-author__name"
+                                                                    title="This is an archived quote in the yEAh Games Archives and has no set author."
+                                                                    rel="author"
+                                                                    href="//members.yeahgames.net/@yeahgames">
+                                                                    @yeahgames</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <time class="time published" datetime="2022-04-23T08:45:23+00:00"
+                                                        title="April 23, 2022 at 8:45 am">April 23, 2022</time>
+                                                </div>
+                                        </article>
+                                    </div>
+
                                 </div>
-                                <div class="author-box__text">
-                                    <div class="author-name meta-font">
-                                        <a class="entry-author__name" rel="author" title="designUTD" href="./author.html">The yEAh Games Network</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- -->
+                <div class="atbs-section-sidebar js-sticky-sidebar">
+                    <div class="widget atbs-atbs-widget atbs-widget-author-box">
+                        <div class="widget-wrap">
+                            <div class="widget__inner">
+                                <div class="author-box author-box-vertical">
+                                    <div class="author-box__image">
+                                        <div class="author-avatar">
+                                            <img alt="designUTD"
+                                                src="https://cdn.yeahgames.net/img/branding/logos/default/logo.png"
+                                                class="avatar avatar-150 photo avatar photo" height="150" width="150"
+                                                loading="lazy" href="//yeahgames.net">
+                                        </div>
                                     </div>
-                                    <div class="author-bio">
-                                        Welcome to the network! 
-                                    </div>
-                                    <div class="author-info">
+                                    <div class="author-box__text">
+                                        <div class="author-name meta-font">
+                                            <a class="entry-author__name" rel="author" title="designUTD"
+                                                href="https://www.yeahgames.net">The yEAh Games Network</a>
+                                        </div>
+                                        <div class="author-bio">
+                                            Welcome to the network!
+                                        </div>
+                                        <div class="author-info">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="atbs-widget-social-counter widget atbs-atbs-widget">
-                    <div class="atbs-widget-social-counter__inner">
-                        <ul class="flex-box flex-box-2i flex-space-20 list-unstyled">
-                            <li>
-                                <a href="//library.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                    <div class="atbs-widget-social-counter widget atbs-atbs-widget">
+                        <div class="atbs-widget-social-counter__inner">
+                            <ul class="flex-box flex-box-2i flex-space-20 list-unstyled">
+                                <li>
+                                    <a href="//library.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
                                             <g id="library" transform="translate(0)">
                                                 <font size="+2"><i class="fa-solid fa-box-archive"></i></font>
                                             </g>
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Library</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//chat.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                            <g id="Group_19406" data-name="Group 19406" transform="translate(5.056 3.46)">
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Library</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//chat.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+                                            <g id="Group_19406" data-name="Group 19406"
+                                                transform="translate(5.056 3.46)">
                                                 <font size="+2"><i class="fa-sharp fa-solid fa-comments"></i></font>
 
                                             </g>
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Chat</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//quotes.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <font size="+2"><i class="fa-solid fa-quote-left"></i></font>
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Chat</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//quotes.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+                                            <font size="+2"><i class="fa-solid fa-quote-left"></i></font>
 
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Quotes</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//news.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <font size="+2"><i class="fa-solid fa-newspaper"></i></font>
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Quotes</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//news.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+                                            <font size="+2"><i class="fa-solid fa-newspaper"></i></font>
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">News</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//docs.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">News</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//docs.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
                                             <g id="Group_19409" data-name="Group 19409" transform="translate(-96 -723)">
                                                 <font size="+2"><i class="fa-solid fa-question-circle"></i></font>
                                             </g>
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Docs</span>
-                                    </div>
-                                </a>
-                            </li>
-                        
-                            
-                            <li>
-                                <a href="//yible.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-
-                                        <font size="+2"><i class="fa-solid fa-book"></i></font>
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Docs</span>
+                                        </div>
+                                    </a>
+                                </li>
 
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Yible</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//events.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                                <li>
+                                    <a href="//yible.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
 
-                                        <font size="+2"><i class="fa-solid fa-calendar-days"></i></font>
+                                            <font size="+2"><i class="fa-solid fa-book"></i></font>
 
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Events</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//artifacts.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Yible</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//events.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
 
-                                        <font size="+2"><i class="fa-solid fa-scroll"></i></font>
-
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Artifacts</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//games.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-
-                                        <font size="+2"><i class="fa-solid fa-gamepad"></i></font>
+                                            <font size="+2"><i class="fa-solid fa-calendar-days"></i></font>
 
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Games</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//admin.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Events</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//artifacts.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
 
-                                        <font size="+2"><i class="fa-solid fa-lock"></i></font>
-
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Admin</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//yank.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-
-                                        <font size="+2"><i class="fa-solid fa-money-bill-1-wave"></i></font>
+                                            <font size="+2"><i class="fa-solid fa-scroll"></i></font>
 
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Yank</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//ychool.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Artifacts</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//games.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
 
-                                        <font size="+2"><i class="fa-solid fa-school-flag"></i></font>
-
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Ychool</span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="//yourt.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-
-                                        <font size="+2"><i class="fa-solid fa-gavel"></i></font>
+                                            <font size="+2"><i class="fa-solid fa-gamepad"></i></font>
 
 
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Yourt</span>
-                                    </div>
-                                </a>
-                            </li>
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Games</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//admin.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+
+                                            <font size="+2"><i class="fa-solid fa-lock"></i></font>
+
+
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Admin</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//yank.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+
+                                            <font size="+2"><i class="fa-solid fa-money-bill-1-wave"></i></font>
+
+
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Yank</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//ychool.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+
+                                            <font size="+2"><i class="fa-solid fa-school-flag"></i></font>
+
+
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Ychool</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="//yourt.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
+
+                                            <font size="+2"><i class="fa-solid fa-gavel"></i></font>
+
+
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Yourt</span>
+                                        </div>
+                                    </a>
+                                </li>
 
 
 
-                            <li>
-                                <a href="//shop.yeahgames.net" class="social-title social-facebook">
-                                    <div class="social-title__icon">
+                                <li>
+                                    <a href="//shop.yeahgames.net" class="social-title social-facebook">
+                                        <div class="social-title__icon">
 
-                                        <font size="+2"><i class="fa-solid fa-shopping-cart"></i></font>
-
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">Shop</span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .site-content -->
-   
+                                            <font size="+2"><i class="fa-solid fa-shopping-cart"></i></font>
 
 
-    </div><!-- Login modal -->
-    <!-- Subscribe modal -->
-    <div class="modal fade subscribe-modal" id="subscribe-modal" tabindex="-1" role="dialog"
-         aria-labelledby="subscribe-modal-label">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&#10005;</span></button>
-                    <h4 class="modal-title" id="subscribe-modal-label">Subscribe</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="subscribe-form subscribe-form--horizontal text-center max-width-sm">
-                        <p class="typescale-1">
-                            Join our <b>868,537</b> subscribers and get access to the latest tools, freebies, product
-                            announcements and much more!
-                        </p>
-                        <div class="subscribe-form__fields">
-                            <p>
-                                <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                                <input type="submit" value="Subscribe" class="btn btn-primary">
-                            </p>
+                                        </div>
+                                        <div class="social-title__inner">
+                                            <span class="social-title__count">Shop</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
-                        <small>Don't worry, we don't spam</small>
                     </div>
                 </div>
             </div>
-        </div>
-    </div><!-- Subscribe modal -->
-    <!-- Off-canvas menu --><div id="atbs-offcanvas-primary" class="atbs-offcanvas js-atbs-offcanvas js-perfect-scrollbar">
-        <div class="atbs-offcanvas__title">
-            
-            <h2 class="site-logo"><a href="//yeahgames.net"><img src="https://cdn.yeahgames.net/img/branding/logos/text/red.png" alt="logo"></a></h2>
-            <br>
-            <ul class="social-list list-horizontal">
-                <li><a href="//yeahgames.net/discord" target="_blank" title="yEAh Games' official Discord server."><i class="fa-brands fa-discord"></i></a></li>
-                <li><a href="mailto:admin@yeahgames.net" title="Email yEAh Games!" target="_blank"><i class="fa-solid fa-envelope"></i></a></li>
-                <li><a href="https://github.com/yEAh-Games" title="yEAh Games' official GitHub account." target="_blank"><i class="fa-brands fa-github"></i></a></li>
-                <li><a href="https://www.youtube.com/@yeahgames" title="yEAh Games' official YouTube channel" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a href="https://www.reddit.com/r/yEAhGames/" title="yEAh Games' official subreddit." target="_blank"><i class="fa-brands fa-reddit"></i></a></li>
-                <li><a href="https://mstdn.social/@yeah" rel="me" title="yEAh Games' official Gravatar profile." target="_blank"><i class="fa-brands fa-mastodon"></i></a></li>
-                <li><a href="https://twitter.com/yEAhGames_" title="yEAh Games' official Twitter account." target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="//instagram.com/_yEAhGames" title="yEAh Games' official Instagram account." target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-
-                
-            </ul>
-            <a href="#atbs-offcanvas-primary" class="atbs-offcanvas-close js-atbs-offcanvas-close"
-               aria-label="Close"><span aria-hidden="true">&#10005;</span></a>
-        </div>
-
-        <div class="atbs-offcanvas__section atbs-offcanvas__section-navigation">
-            <ul id="menu-offcanvas-menu" class="navigation navigation--offcanvas">
-                <li class="menu-item">
-                    <a href="//yeahgames.net"><i class="fa-solid fa-home"></i>&#160;&#160;Homepage</a>
-                </li>
-                <li class="menu-item">
-                    <a href="//yeahgames.net/404"><i class="fa-solid fa-chain-broken"></i>&#160;&#160;404 page</a>
-                </li>
-             
-                <li class="menu-item">
-                    <a href="//library.yeahgames.net"><i class="fa-solid fa-archive"></i>&#160;&#160;The Library</a>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="//collections.yeahgames.net"><i class="fa-solid fa-folder-open"></i>&#160;&#160;Collections</a>
-<ul class="sub-menu">
-    <li><a href="//quotes.yeahgames.net"><i class="fa-solid fa-quote-left"></i>&#160;&#160;Quotes</a></li>
-    <li><a href="//news.yeahgames.net"><i class="fa-solid fa-newspaper"></i>&#160;&#160;News</a></li>
-    <li><a href="//docs.yeahgames.net"><i class="fa-solid fa-question-circle"></i>&#160;&#160;Docs</a></li>
-    <li><a href="//gamesarchive.yeahgames.net"><i class="fa-solid fa-dice"></i>&#160;&#160;Games</a></li>
-    <li><a href="//yible.yeahgames.net"><i class="fa-solid fa-book"></i>&#160;&#160;Yible</a></li>
-    <li><a href="//yankarchive.yeahgames.net"><i class="fa-solid fa-money-bill-1-wave"></i>&#160;&#160;Yank</a></li>
-    <li><a href="//archive.legal.yeahgames.net"><i class="fa-solid fa-scale-balanced"></i>&#160;&#160;Legal</a></li>
+        </div><!-- .site-content -->
 
 
-</ul>
-<li class="menu-item">
-    <a href="//chat.yeahgames.net"><i class="fa-solid fa-comments"></i>&#160;&#160;Chat</a>
-</li>
-                <li class="menu-item">
-                    <a href="//admin.yeahgames.net"><i class="fa-solid fa-lock"></i>&#160;&#160;Admin</a>
-                </li>
-               
-                <li class="menu-item">
-                    <a href="//calendar.yeahgames.net"><i class="fa-solid fa-calendar-days"></i>&#160;&#160;Events</a>
-                </li>
-                <li class="menu-item">
-                    <a href="//games.yeahgames.net"><i class="fa-solid fa-gamepad"></i>&#160;&#160;Games</a>
-                </li>
-                <li class="menu-item">
-                    <a href="//yank.yeahgames.net"><i class="fa-solid fa-bank"></i>&#160;&#160;Yank</a>
-                </li>
-                <li class="menu-item">
-                    <a href="//ychool.yeahgames.net"><i class="fa-solid fa-school"></i>&#160;&#160;Ychool</a>
-                </li>
-                <li class="menu-item">
-                    <a href="//yourt.yeahgames.net"><i class="fa-solid fa-gavel"></i>&#160;&#160;Yourt</a>
-                </li>
-                
-                <li class="menu-item">
-                    <a href="//shop.yeahgames.net"><i class="fa-solid fa-shopping-cart"></i>&#160;&#160;Shop</a>
-                </li>
 
-                <li class="menu-item">
-                
-                
-                    <li class="menu-item-has-children">
-                        <a href="//go.yeahgames.net/yeahroll"><i class="fa-solid fa-x"></i>&#160;&#160;Deprecated</a>
-                        <ul class="sub-menu">
-                        <li><a href="//old.yeahgames.net"><i class="fa-brands fa-pied-piper-hat"></i>&#160;&#160;Old Homepage</a></li>
-                        <li><a href="//archives.old.yeahgames.net"><i class="fa-solid fa-archive"></i>&#160;&#160;Old Archives</a></li>
-                        <li><a href="//site.old.yeahgames.net"><i class="fa-solid fa-newspaper"></i>&#160;&#160;Old Weebly Site</a></li>
-                        <li><a href="//secret.old.yeahgames.net"><i class="fa-solid fa-user-secret"></i>&#160;&#160;Old Secret Website</a></li>
-                        <li><a href="//chat.old.yeahgames.net"><i class="fa-solid fa-comments"></i>&#160;&#160;Old Chatrooms</a></li>
-                    </li>
-                   
-
-            </ul>
-        </div>
-
-        <div class="atbs-offcanvas__section visible-xs visible-sm">
-            <div class="text-center">
-            </div>
-        </div>
-    </div><!-- Off-canvas menu -->
-    <a href="#" class="atbs-go-top btn btn-default hidden-xs js-go-top-el"><i class="mdicon mdicon-arrow_upward"></i></a>
-</div><!-- .site-wrapper -->
-
-    <a href="#" class="atbs-go-top btn btn-default hidden-xs js-go-top-el"><i class="mdicon mdicon-arrow_upward"></i></a>
-</div><!-- .site-wrapper -->
-
-<script src="js/jquery.js"></script>
-<script src="js/sidebar.js"></script>
-<script src="js/owl-carousel.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
-</html>
+{% include bottom.html %}
