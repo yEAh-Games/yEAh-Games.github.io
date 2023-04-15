@@ -9742,7 +9742,7 @@ body.is-atbs-offcanvas-opened {
     right: auto;
     bottom: 0;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     background: var(--background-secondary);
     z-index: 1039;
     /* bootstrap modal */
