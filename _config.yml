@@ -1,0 +1,5 @@
+title: The yEAh Games Network
+description: The official homepage of the yEAh Games network.
+
+plugins:
+ - jekyll-sitemap
