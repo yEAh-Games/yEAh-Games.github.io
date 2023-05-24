@@ -1,2 +1,5 @@
-Sitemap: /sitemap.xml
+Sitemap: https://www.yeahgames.net/sitemap.xml
+Sitemap: https://search.yeahgames.net/data/xml/sitemaps/maps.xml
+Sitemap: https://search.yeahgames.net/data/xml/sitemaps/sites.xml
+User-agent: *
 Disallow: /theme/*
