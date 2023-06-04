@@ -397,10 +397,6 @@ Remove the inner padding in Chrome and Safari on macOS.
   /* 2 */
 }
 
-/*
-Removes the default spacing and border for appropriate elements.
-*/
-
 blockquote,
 dl,
 dd,
@@ -630,7 +626,6 @@ video {
 .block {
   display: block;
 }
-
 .hidden {
   display: none;
 }
