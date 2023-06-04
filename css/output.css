@@ -397,18 +397,6 @@ Remove the inner padding in Chrome and Safari on macOS.
   /* 2 */
 }
 
-/*
-Add the correct display in Chrome and Safari.
-*/
-
-summary {
-  display: list-item;
-}
-
-/*
-Removes the default spacing and border for appropriate elements.
-*/
-
 blockquote,
 dl,
 dd,
@@ -638,11 +626,6 @@ video {
 .block {
   display: block;
 }
-
-.list-item {
-  display: list-item;
-}
-
 .hidden {
   display: none;
 }
