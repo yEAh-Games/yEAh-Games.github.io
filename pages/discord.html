@@ -3,26 +3,87 @@ permalink: /discord
 ---
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   {% include analytics.html %}
   <title>Join yEAh Games' official Discord server!</title>
-  <meta name="description" content="Join yEAh Games' official Discord server. Chat, play and hangout with other yEAh Games members.s"
-<noscript>
+  <script type="628ffa0f8a91fa80475d916f-text/javascript">
+    window.addEventListener('load', function () {
+      var loaderOverlay = document.querySelector('.loading-overlay');
+      loaderOverlay.style.display = 'none';
+    });
+  </script>
+  <style>
+    .loading {
+      display: none;
+      margin-top: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .loading-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #0c0e14;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .loader {
+      border: 4px solid #1d1f24;
+      border-top: 4px solid #ff4747;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <script>
+    window.addEventListener('load', function () {
+      var loaderOverlay = document.querySelector('.loading-overlay');
+      loaderOverlay.style.display = 'none';
+    });
+  </script>
+  <meta name="description"
+    content="Join yEAh Games' official Discord server. Chat, play and hangout with other yEAh Games members.">
+  <meta name="theme-color" content="#ff4747" />
+  <link rel="icon" href="https://cdn.yeahgames.net/img/branding/logos/default/logo.svg">
+  <meta name="og:image" content="https://cdn.yeahgames.net/img/home/featured/thumb/discord.png">
+  <noscript>
     <meta http-equiv="refresh" content="0;URL=https://discord.gg/xvBAKFYNU4">
-</noscript>
-<script type="text/javascript">
+  </noscript>
+  <script type="text/javascript">
     var url = "https://discord.gg/xvBAKFYNU4";
-    if(typeof IE_fix != "undefined") 
-    {
-        document.write("redirecting..."); 
-        var referLink = document.createElement("a");
-        referLink.href = url;
-        document.body.appendChild(referLink);
-        referLink.click();
+    if (typeof IE_fix != "undefined") {
+      document.write("redirecting...");
+      var referLink = document.createElement("a");
+      referLink.href = url;
+      document.body.appendChild(referLink);
+      referLink.click();
     }
     else { window.location.replace(url); } 
-</script>
-  </head>
-    <body>
-      </body
-      </html>
+  </script>
+</head>
+
+<body>
+  <div class="loading-overlay">
+    <div class="loader"></div>
+  </div>
+</body>
+
+</html>
