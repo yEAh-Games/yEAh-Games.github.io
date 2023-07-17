@@ -1,0 +1,55 @@
+- title: "Join yEAh's official Discord server"
+  date: null
+  type: ad
+  image:
+    alt: "Discord logo on blue background"
+    url: "https://cdn.yeahgames.net/img/home/featured/thumb/discord.png.webp"
+  url: "https://ads.yeahgames.net/ad/click/home/pPTQPgnWba5MF5x/"
+  ad_domain: "www.yeahgames.net/discord"
+  author: "yeahgames"
+
+- title: "Introducing yeahgames.net!"
+  date: 2023-03-03
+  type: post
+  url: "https://news.yeahgames.net/news/introducing-yeahgames-net"
+  image: 
+    alt: "Image of an interconnected Earth"
+    url: "https://news.yeahgames.net/archive/img/network.png"
+  location: 
+    url: "https://news.yeahgames.net"
+    text: "Collection: News"
+  author: "nnillat"
+  verification: true
+  categories:
+    - Article
+    - Network
+
+- title: "Roadmap: Implementation of yAuth"
+  date: 2023-05-31
+  type: post
+  url: "hhttps://news.yeahgames.net/news/roadmap-implementation-of-yauth/"
+  image: 
+    alt: "Futuristic image of a digitial lock"
+    url: "https://news.yeahgames.net/archive/img/yauth.jpg"
+  location: 
+    url: "https://news.yeahgames.net"
+    text: "Collection: News"
+  author: "nnillat"
+  categories:
+    - Article
+    - Development
+
+- title: "Advertising on the yEAh Network"
+  date: 2023-06-22
+  type: post
+  url: "https://docs.yeahgames.net/docs/ads/"
+  image: 
+    alt: "Image of a megaphone on a red background"
+    url: "https://cdn.yeahgames.net/img/home/featured/thumb/megaphone.png.webp"
+  location: 
+    url: "https://docs.yeahgames.net"
+    text: "Collection: Docs"
+  author: "yeahgames"
+  categories:
+    - Docs
+    - Ads

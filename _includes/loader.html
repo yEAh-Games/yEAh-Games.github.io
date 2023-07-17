@@ -1,0 +1,10 @@
+{% include loader-ns.html %}
+
+<script>
+    window.addEventListener('load', function () {
+        var loaderOverlay = document.querySelector('.loading-overlay');
+        setTimeout(function () {
+            loaderOverlay.style.display = 'none';
+        }, 10);
+    });
+</script>
